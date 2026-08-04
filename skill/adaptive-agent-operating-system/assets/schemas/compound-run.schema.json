@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/prithvi-jpg/cloud-agents/main/skill/adaptive-agent-operating-system/assets/schemas/compound-run.schema.json",
+  "title": "Agent Systems Foundry Compound Run",
+  "type": "object",
+  "required": [
+    "id",
+    "task_id",
+    "model",
+    "harness",
+    "effort_class",
+    "context_strategy",
+    "environment",
+    "verifier",
+    "artifact_receipt",
+    "outcome"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "task_id": { "type": "string", "minLength": 1 },
+    "dataset_version": { "type": ["string", "null"] },
+    "model": { "type": "string", "minLength": 1 },
+    "model_version": { "type": ["string", "null"] },
+    "harness": { "type": "string", "minLength": 1 },
+    "harness_version": { "type": ["string", "null"] },
+    "stable_kernel_version": { "type": ["string", "null"] },
+    "phase_packet_version": { "type": ["string", "null"] },
+    "capability_set": { "type": "array", "items": { "type": "string" } },
+    "effort_class": {
+      "enum": ["focused", "investigative", "frontier"]
+    },
+    "context_strategy": { "type": "string", "minLength": 1 },
+    "environment": { "type": "string", "minLength": 1 },
+    "verifier": { "type": "string", "minLength": 1 },
+    "held_out_verifier": { "type": ["string", "null"] },
+    "attempts": { "type": "integer", "minimum": 1 },
+    "cost": { "type": ["number", "string", "null"] },
+    "latency": { "type": ["number", "string", "null"] },
+    "artifact_receipt": { "type": "string", "minLength": 1 },
+    "hard_gate_failures": { "type": "array", "items": { "type": "string" } },
+    "outcome": { "type": "string", "minLength": 1 },
+    "human_corrections": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true
+}

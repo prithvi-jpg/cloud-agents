@@ -1,0 +1,6 @@
+interface:
+  display_name: "Agent Systems Foundry OS"
+  short_description: "Run ambitious work with memory, recovery, and proof"
+  default_prompt: "Use $adaptive-agent-operating-system to run this project with wide creative freedom, durable inspectable memory, recoverable state, bounded action, and evidence-backed completion."
+policy:
+  allow_implicit_invocation: true

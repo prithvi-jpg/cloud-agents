@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/prithvi-jpg/cloud-agents/main/skill/adaptive-agent-operating-system/assets/schemas/task-state.schema.json",
+  "title": "Agent Systems Foundry Task State",
+  "type": "object",
+  "required": [
+    "id",
+    "project_id",
+    "state",
+    "version",
+    "workflow_stage",
+    "objective",
+    "authority",
+    "budget",
+    "attempts",
+    "verification",
+    "next_action",
+    "updated_at"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "project_id": { "type": "string", "minLength": 1 },
+    "state": {
+      "enum": [
+        "draft",
+        "ready",
+        "leased",
+        "active",
+        "waiting_approval",
+        "verifying",
+        "retry_wait",
+        "stalled",
+        "succeeded",
+        "failed",
+        "canceled",
+        "released"
+      ]
+    },
+    "version": { "type": "integer", "minimum": 1 },
+    "source": {
+      "type": "object",
+      "properties": {
+        "adapter": { "type": "string" },
+        "native_id": { "type": ["string", "null"] },
+        "native_status": { "type": ["string", "null"] },
+        "native_version": { "type": ["string", "null"] },
+        "remote_data_ref": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "workflow_stage": { "type": "string", "minLength": 1 },
+    "objective": { "type": "string", "minLength": 1 },
+    "dependencies": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "availability": {
+      "type": "object",
+      "required": ["eligible", "reasons", "computed_at"],
+      "properties": {
+        "eligible": { "type": "boolean" },
+        "reasons": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "computed_at": { "type": "string", "format": "date-time" }
+      },
+      "additionalProperties": false
+    },
+    "authority": { "type": "object" },
+    "budget": { "type": "object" },
+    "claim": {
+      "type": ["object", "null"],
+      "properties": {
+        "owner": { "type": "string" },
+        "claimed_from_version": { "type": "integer", "minimum": 1 },
+        "claimed_at": { "type": "string", "format": "date-time" }
+      },
+      "additionalProperties": true
+    },
+    "lease": {
+      "type": ["object", "null"],
+      "properties": {
+        "id": { "type": "string" },
+        "owner": { "type": "string" },
+        "attempt_id": { "type": "string" },
+        "acquired_at": { "type": "string", "format": "date-time" },
+        "expires_at": { "type": "string", "format": "date-time" },
+        "heartbeat_at": { "type": "string", "format": "date-time" }
+      },
+      "additionalProperties": true
+    },
+    "attempts": { "type": "array", "items": { "type": "string" } },
+    "verification": { "type": "object" },
+    "delivery_receipt": { "type": ["object", "null"] },
+    "next_action": { "type": ["string", "null"] },
+    "updated_at": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": true
+}

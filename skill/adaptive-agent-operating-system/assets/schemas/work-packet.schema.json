@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/prithvi-jpg/cloud-agents/main/skill/adaptive-agent-operating-system/assets/schemas/work-packet.schema.json",
+  "title": "Agent Systems Foundry Work Packet",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "initial_state",
+    "objective",
+    "constraints",
+    "action_space",
+    "budget",
+    "diagnostics",
+    "verification",
+    "steering",
+    "receipt"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "initial_state": { "type": "object" },
+    "objective": {
+      "type": "object",
+      "required": ["final_state"],
+      "properties": {
+        "final_state": { "type": "string", "minLength": 1 },
+        "people_served": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "constraints": { "type": "object" },
+    "action_space": {
+      "type": "object",
+      "required": ["allowed", "forbidden"],
+      "properties": {
+        "allowed": { "type": "array", "items": { "type": "string" } },
+        "forbidden": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "budget": {
+      "type": "object",
+      "required": ["effort"],
+      "properties": {
+        "effort": {
+          "enum": ["focused", "investigative", "frontier"]
+        },
+        "max_attempts": { "type": ["integer", "null"], "minimum": 1 }
+      }
+    },
+    "diagnostics": { "type": "object" },
+    "verification": {
+      "type": "object",
+      "required": ["acceptance", "hard_gates"],
+      "properties": {
+        "acceptance": { "type": "array", "items": { "type": "string" } },
+        "hard_gates": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "steering": { "type": "object" },
+    "receipt": { "type": "object" }
+  },
+  "additionalProperties": true
+}
