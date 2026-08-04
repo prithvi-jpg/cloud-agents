@@ -2,13 +2,13 @@
 
 ## Objective and phase
 
-Objective: publish and verify a safe, useful v0.1.0 release of Cloud Agents.
+Objective: maintain and evaluate the public v0.1.0 release of Cloud Agents.
 
-Current phase: approved release execution.
+Current phase: public release and early evidence collection.
 
 ## Active plan and one next action
 
-Next best action: publish the verified commit, run public CI, tag v0.1.0, create the GitHub release, and record the readback receipt.
+Next best action: collect one reproducible external usage report or compatibility fixture without overstating adoption.
 
 ## Verified evidence
 
@@ -18,6 +18,10 @@ Next best action: publish the verified commit, run public CI, tag v0.1.0, create
 - Eight unit tests pass, including positive and negative controls for project and memory validation plus skill-package metadata checks.
 - The official Skill Creator validator, repository project validation, Python compilation, whitespace checks, and a tracked-source secret/path scan pass locally.
 - The maintainer explicitly approved public publication under MIT for this release.
+- Public commit `117c45946bf886acfda276dc2800667f863835a8` contains the approved v0.1.0 scope.
+- GitHub Actions run `30877600999` passed all checks on Python 3.10, 3.11, and 3.12.
+- GitHub release `v0.1.0` is published and points to the verified commit.
+- Public readback confirms MIT licensing, project metadata, topics, Discussions, and private vulnerability reporting.
 
 ## Decisions and rejected paths
 
@@ -27,25 +31,25 @@ Next best action: publish the verified commit, run public CI, tag v0.1.0, create
 
 ## Assumptions, risks, and open questions
 
-- The maintainer owns the original operating-skill text and intends to license this public release under MIT.
-- Early usefulness is supported by the artifact design and local checks; external adoption remains unverified.
+- The maintainer owns the original operating-skill text and licensed the public release under MIT.
+- Early usefulness is supported by the artifact design and passing checks; external adoption remains unverified.
 - Harness compatibility beyond the documented file format remains a roadmap item.
 
 ## Capability shortlist and rationale
 
-- Local validation for falsifiable release checks.
-- GitHub only after an exact public diff and approval.
-- Browser automation only for the separately approved OpenAI application.
+- GitHub Issues and Discussions for public maintainer feedback.
+- CI fixtures for falsifiable compatibility evidence.
+- Release receipts and changelog entries for externally visible changes.
 
 ## Authority boundary
 
-- Local edits, tests, and release preparation are authorized.
-- Public push, repository metadata changes, security/community settings, tag, and GitHub release are approved for v0.1.0. Future consequential changes require a new approval.
+- Scoped, reversible local maintenance and verification may proceed.
+- Future public pushes, releases, permission changes, and other consequential external actions require explicit approval.
 
 ## Verification status
 
-Local release checks pass. Public push, tag, GitHub Actions, release creation, and public readback remain pending.
+v0.1.0 is public and verified. Local checks, three-version CI, tag, release, repository metadata, security reporting, and public readback pass. External adoption and cross-harness compatibility remain unverified.
 
 ## Handoff note
 
-Publish only the approved v0.1.0 scope. After CI, tag, release, and readback succeed, update this state with the public receipt and any remaining limitation.
+Start with this receipt, then use a real issue or compatibility fixture as the next evidence source. Do not convert repository existence into an adoption claim.
