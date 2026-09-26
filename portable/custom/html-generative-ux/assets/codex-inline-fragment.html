@@ -1,0 +1,63 @@
+<div id="html-gux-root">
+  <style>
+    #html-gux-root {
+      --gux-bg: var(--color-background-primary, #faf9f5);
+      --gux-panel: var(--color-background-secondary, #f1ede4);
+      --gux-text: var(--color-text-primary, #171715);
+      --gux-muted: var(--color-text-secondary, #686660);
+      --gux-line: var(--color-border-secondary, #d8d3c8);
+      --gux-accent: #d97757;
+      color: var(--gux-text);
+      font: 14px/1.45 ui-sans-serif, system-ui, sans-serif;
+    }
+    #html-gux-root .gux-panel {
+      border: 1px solid var(--gux-line);
+      border-radius: 14px;
+      background: var(--gux-bg);
+      padding: 16px;
+    }
+    #html-gux-root .gux-focus {
+      font-size: 20px;
+      line-height: 1.15;
+      font-weight: 650;
+      letter-spacing: -.02em;
+    }
+    #html-gux-root .gux-muted { color: var(--gux-muted); }
+    #html-gux-root button {
+      min-height: 36px;
+      border: 1px solid var(--gux-line);
+      border-radius: 9px;
+      background: var(--gux-panel);
+      color: inherit;
+      padding: 7px 11px;
+      font: inherit;
+      cursor: pointer;
+    }
+    #html-gux-root button:focus-visible {
+      outline: 2px solid var(--gux-accent);
+      outline-offset: 2px;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      #html-gux-root *, #html-gux-root *::before, #html-gux-root *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .001ms !important;
+        transition-duration: .001ms !important;
+      }
+    }
+  </style>
+  <section class="gux-panel" aria-label="Generated decision surface">
+    <div class="gux-focus">Put the first useful thought here.</div>
+    <p class="gux-muted">Add only the context needed to trust or act on it.</p>
+    <button type="button" id="html-gux-next">Continue in Codex</button>
+  </section>
+  <script>
+    (() => {
+      const root = document.getElementById('html-gux-root');
+      root.querySelector('#html-gux-next').addEventListener('click', () => {
+        window.openai?.sendFollowUpMessage?.({
+          prompt: 'Continue from this decision surface with the next concrete step.'
+        });
+      });
+    })();
+  </script>
+</div>

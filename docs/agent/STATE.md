@@ -2,13 +2,13 @@
 
 ## Objective and phase
 
-Objective: maintain and evaluate the public Cloud Agents skill, including portable model routing.
+Objective: maintain and evaluate the public Cloud Agents skill and a portable skill-library snapshot, including model routing.
 
-Current phase: model-routing documentation awaiting cross-harness verification.
+Current phase: local portable-library candidate awaiting public review and cross-harness verification.
 
 ## Active plan and one next action
 
-Next best action: validate the documented routing in a Codex task and a Claude-capable task using representative work.
+Next best action: review the portable-library diff and ZIP contents, then decide whether to approve the public push.
 
 ## Verified evidence
 
@@ -24,6 +24,9 @@ Next best action: validate the documented routing in a Codex task and a Claude-c
 - Public readback confirms MIT licensing, project metadata, topics, Discussions, and private vulnerability reporting.
 - The model-routing note describes GPT-6 Sol/Astra in Codex and Claude Fable in a Claude-capable harness without adding model IDs to canonical project state. The public `main` branch contains the first routing note at `e06ac49`; GitHub Actions run `36269356537` passed all three Python matrix jobs.
 - A local follow-up candidate shortens the root skill into a task-based router and makes repository guidance proportional to the task. It requires local checks and a separate review before publication.
+- A local portable-library candidate inventories 189 distinct skill names: 168 pinned to 18 GitHub repositories and 21 bundled skills, with 31 managed remote plugins listed separately. The maintainer asked for the repository and ZIP to include the full set and explicitly chose to publish the original 16 bundled personal/other skills; five additional local Orca-related skills were found afterward and are included in the review candidate.
+- The staged ZIP matches the `portable/` directory byte for byte. Eleven unit tests pass, including a negative ZIP-tamper check; project validation, Python compilation, shell syntax, and whitespace checks pass. A disposable install fetched and installed all 189 names, then restored the empty target with the rollback receipt. For that pre-publication test only, the adaptive skill pin was changed in a temporary package from unpushed `4f52bcb` to public `e06ac49`; the staged manifest still pins `4f52bcb`.
+- A public-package pattern scan found no private keys, common service tokens, or email addresses after removing a personal address from the portable email setup example. A machine-specific visualization script now requires an explicit Windows directory instead of using the maintainer's path.
 
 ## Decisions and rejected paths
 
@@ -37,6 +40,7 @@ Next best action: validate the documented routing in a Codex task and a Claude-c
 - Early usefulness is supported by the artifact design and passing checks; external adoption remains unverified.
 - Harness compatibility beyond the documented file format remains a roadmap item.
 - Model access and supported effort levels vary by account and harness; this routing note requires checking the target environment rather than implying entitlement.
+- The portable skill library is a pinned source snapshot, not a claim that each external skill's runtime dependencies or plugin authorization work on another laptop. Five bundled Orca-related skills need a compatible Orca runtime; some local skills retain machine-specific path examples.
 
 ## Capability shortlist and rationale
 
@@ -51,7 +55,7 @@ Next best action: validate the documented routing in a Codex task and a Claude-c
 
 ## Verification status
 
-v0.1.0 and the first routing update are public with passing CI. The simplification follow-up remains local until separately reviewed and pushed. Live cross-harness behavior and external adoption remain unverified.
+v0.1.0 and the first routing update are public with passing CI. The simplification and portable-library additions remain local until separately reviewed and pushed. Live cross-harness behavior and external adoption remain unverified.
 
 ## Handoff note
 

@@ -1,0 +1,1936 @@
+{
+  "schema_version": 1,
+  "generated_on": "2026-09-26",
+  "sources": {
+    "EveryInc/compound-engineering-plugin": {
+      "url": "https://github.com/EveryInc/compound-engineering-plugin.git",
+      "commit": "a763b392c3c05faa1a383c0d228b7e95200ecc90"
+    },
+    "GoogleChrome/modern-web-guidance": {
+      "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
+      "commit": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e"
+    },
+    "alirezarezvani/claude-skills": {
+      "url": "https://github.com/alirezarezvani/claude-skills.git",
+      "commit": "19392f7a08264ed00486a251f5b2098321771f94"
+    },
+    "cli/cli": {
+      "url": "https://github.com/cli/cli.git",
+      "commit": "9b031151a825bda919203c5202876a725d637368"
+    },
+    "cursor/plugins": {
+      "url": "https://github.com/cursor/plugins.git",
+      "commit": "ecc249f1e306fc64ddf83c7bed16cacf7c2239db"
+    },
+    "emilkowalski/skills": {
+      "url": "https://github.com/emilkowalski/skills.git",
+      "commit": "d16ebe60d09a5ba2afcb7054ede9d0a10c9f6128"
+    },
+    "firecrawl/skills": {
+      "url": "https://github.com/firecrawl/skills.git",
+      "commit": "3a410054eb2a4bbb1545d0fd88d4cb282f64624f"
+    },
+    "google/agents-cli": {
+      "url": "https://github.com/google/agents-cli.git",
+      "commit": "e556c95e94d8440e2edf605a13c513bd01d8e602"
+    },
+    "heredotnow/skill": {
+      "url": "https://github.com/heredotnow/skill.git",
+      "commit": "0f60d2374d3c8c6ffda1ecad4c0af69f278f7f27"
+    },
+    "heygen-com/hyperframes": {
+      "url": "https://github.com/heygen-com/hyperframes.git",
+      "commit": "dce0acd6d2ea26cae80338bdc7bb2f1cce745d27"
+    },
+    "jamiemill/layers-skills": {
+      "url": "https://github.com/jamiemill/layers-skills.git",
+      "commit": "a201dc8c2011940b9d93934abb0f40c3b226c7ca"
+    },
+    "mvanhorn/last30days-skill": {
+      "url": "https://github.com/mvanhorn/last30days-skill.git",
+      "commit": "084662b501fb0dba95bd55eff0c258d35e0dc499"
+    },
+    "prithvi-jpg/cloud-agents": {
+      "url": "https://github.com/prithvi-jpg/cloud-agents.git",
+      "commit": "4f52bcb9e772f9baf90af66c2622d3d2d72d4193"
+    },
+    "remotion-dev/skills": {
+      "url": "https://github.com/remotion-dev/skills.git",
+      "commit": "cf49eff5d4463b33966b6618c83f7295797dd028"
+    },
+    "stablyai/orca": {
+      "url": "https://github.com/stablyai/orca.git",
+      "commit": "abc4cb0f324538650b34cf47d259cb5665f0ad54"
+    },
+    "tmchow/illo-skill": {
+      "url": "https://github.com/tmchow/illo-skill.git",
+      "commit": "0b0abee9214d9cef3c9f42d5c739a0d63cb618e6"
+    },
+    "vercel-labs/agent-skills": {
+      "url": "https://github.com/vercel-labs/agent-skills.git",
+      "commit": "063bee94c3f4df8453406c830b0a7df0f2860278"
+    },
+    "vercel-labs/skills": {
+      "url": "https://github.com/vercel-labs/skills.git",
+      "commit": "7407f3893ad4dceab546ac002c3ef806e4000c73"
+    }
+  },
+  "skills": [
+    {
+      "name": "adaptive-agent-operating-system",
+      "repo": "prithvi-jpg/cloud-agents",
+      "path": "skill/adaptive-agent-operating-system",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "fe6c4d6393f7ca6d1388f1d3d410d5c8b94d2bc3"
+    },
+    {
+      "name": "agent-handoff-briefs",
+      "bundle_path": "custom/agent-handoff-briefs",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "content_sha256": "303673e4ca7f39566ef007f01062bc819ad39f5186beb21709e8872379b63745"
+    },
+    {
+      "name": "animation-vocabulary",
+      "repo": "emilkowalski/skills",
+      "path": "skills/animation-vocabulary",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "d49565744427887a1f719de1ceee04d941d4e681"
+    },
+    {
+      "name": "apple-design",
+      "repo": "emilkowalski/skills",
+      "path": "skills/apple-design",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "cd509ae729c86487d352e17a26651217a4c25711"
+    },
+    {
+      "name": "architect",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/architect",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "603668c4b5c46d6e32d6f325c01359a831854941"
+    },
+    {
+      "name": "arena",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/arena",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "051012b3fd378ad46410ee3f2dcf779a819fd297"
+    },
+    {
+      "name": "automate-me",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/automate-me",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "b301b39506b378d699e1becedf1af73ff5d9f3d5"
+    },
+    {
+      "name": "build-operating-system",
+      "bundle_path": "custom/build-operating-system",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "content_sha256": "7af1e3fa7fc87e766fa0f1071a42a165acb864ff7ffa9e0ab4be4bc090c525a8"
+    },
+    {
+      "name": "cancel-ralph",
+      "repo": "cursor/plugins",
+      "path": "ralph-loop/skills/cancel-ralph",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "8027df5597628112aa5a13c76b2cedd63fe19980"
+    },
+    {
+      "name": "ce-brainstorm",
+      "repo": "EveryInc/compound-engineering-plugin",
+      "path": "skills/ce-brainstorm",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "86b658299b4198be9ed67d839912fa4c94c9344e"
+    },
+    {
+      "name": "ce-code-review",
+      "repo": "EveryInc/compound-engineering-plugin",
+      "path": "skills/ce-code-review",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "a82a07591343562034d73c2ff01eb6ce24dc5958"
+    },
+    {
+      "name": "ce-commit-push-pr",
+      "repo": "EveryInc/compound-engineering-plugin",
+      "path": "skills/ce-commit-push-pr",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "8fc7adbcb8f4846c4bc8a39faea406494c43f341"
+    },
+    {
+      "name": "ce-doc-review",
+      "repo": "EveryInc/compound-engineering-plugin",
+      "path": "skills/ce-doc-review",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "8a6882ba2bafaea05e2c4528cbf20a2d63344655"
+    },
+    {
+      "name": "ce-dogfood",
+      "repo": "EveryInc/compound-engineering-plugin",
+      "path": "skills/ce-dogfood",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "a99d142a4788e70199b9aa41cd0332c3910f8cd5"
+    },
+    {
+      "name": "ce-optimize",
+      "repo": "EveryInc/compound-engineering-plugin",
+      "path": "skills/ce-optimize",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "c5d490616513f0c4729e4308c7f9615d515aca67"
+    },
+    {
+      "name": "ce-plan",
+      "repo": "EveryInc/compound-engineering-plugin",
+      "path": "skills/ce-plan",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "8ae5c13d8014347a472840135ecdd1cf26a96380"
+    },
+    {
+      "name": "ce-polish",
+      "repo": "EveryInc/compound-engineering-plugin",
+      "path": "skills/ce-polish",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "052bb9aba8c65fe18a3e242046b62563e7067e6d"
+    },
+    {
+      "name": "ce-proof",
+      "repo": "EveryInc/compound-engineering-plugin",
+      "path": "skills/ce-proof",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "21aebfdce260ec66b0f1f8cea84099e099334276"
+    },
+    {
+      "name": "ce-simplify-code",
+      "repo": "EveryInc/compound-engineering-plugin",
+      "path": "skills/ce-simplify-code",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "7d5bf0211281eadbdf6754bc5eaa3d80d22857b0"
+    },
+    {
+      "name": "ce-strategy",
+      "repo": "EveryInc/compound-engineering-plugin",
+      "path": "skills/ce-strategy",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "24248ecc6e03f37dbd2d1e399359913f184bde0f"
+    },
+    {
+      "name": "ce-test-browser",
+      "repo": "EveryInc/compound-engineering-plugin",
+      "path": "skills/ce-test-browser",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "6ea2e395362373639f4c5afccd0b753127c0c0af"
+    },
+    {
+      "name": "check-agent-compatibility",
+      "repo": "cursor/plugins",
+      "path": "agent-compatibility/skills/check-agent-compatibility",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "3b8b0ccd5858d5e96e6337123313eee3ef95572f"
+    },
+    {
+      "name": "check-compiler-errors",
+      "repo": "cursor/plugins",
+      "path": "cursor-team-kit/skills/check-compiler-errors",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "4d2f1458358fd0f69a830d0de7bf2111d45879df"
+    },
+    {
+      "name": "chrome-extensions",
+      "repo": "GoogleChrome/modern-web-guidance",
+      "path": "skills/chrome-extensions",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "70ae21f9bbccb4d97c2748dffcc227f9ed07c6cf"
+    },
+    {
+      "name": "cli-for-agents",
+      "repo": "cursor/plugins",
+      "path": "cli-for-agent/skills/cli-for-agents",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "732b15173f44c2dc3129cd010e2b2f6113d066e0"
+    },
+    {
+      "name": "computer-use",
+      "repo": "stablyai/orca",
+      "path": "skills/computer-use",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "b59f27370a41225c22127e91da0c91cd2519f217"
+    },
+    {
+      "name": "context-dev",
+      "bundle_path": "custom/context-dev",
+      "discovered_in": [
+        "windows_agents"
+      ],
+      "content_sha256": "9aa24c11d2e9c5efbc568deefce4f1dcdc10388eb2b411cf7d1f344f76a3da3a"
+    },
+    {
+      "name": "continual-learning",
+      "repo": "cursor/plugins",
+      "path": "continual-learning/skills/continual-learning",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "ca8838b5cb190bcf29560f34f0a33d235fefe2b8"
+    },
+    {
+      "name": "control-cli",
+      "repo": "cursor/plugins",
+      "path": "cursor-team-kit/skills/control-cli",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "21f3eee2663ae7c78464bfc2a69f6a8cc6c4f7ed"
+    },
+    {
+      "name": "control-ui",
+      "repo": "cursor/plugins",
+      "path": "cursor-team-kit/skills/control-ui",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "797e6d20a029b2ae757a97951278d308f3b53026"
+    },
+    {
+      "name": "create-learning-path",
+      "repo": "cursor/plugins",
+      "path": "teaching/skills/create-learning-path",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "c5a7d2b76d736e4d32dc63f5b280640031d2483c"
+    },
+    {
+      "name": "create-plugin-scaffold",
+      "repo": "cursor/plugins",
+      "path": "create-plugin/skills/create-plugin-scaffold",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "dfd82fe65946bdac3a3eae8ea2fa880031a6cc5e"
+    },
+    {
+      "name": "cursor-sdk",
+      "repo": "cursor/plugins",
+      "path": "cursor-sdk/skills/cursor-sdk",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "892e58fc7053de2a33fdda7a36ef1bfcf7685f87"
+    },
+    {
+      "name": "delegation-timeout-salvage",
+      "bundle_path": "custom/delegation-timeout-salvage",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "content_sha256": "4abdcd4aa86e3b2e920fa0757769f57fed5bb0c3ec30d640eb6ac5bc895d339d"
+    },
+    {
+      "name": "deliver-windows-wsl-artifacts",
+      "bundle_path": "custom/deliver-windows-wsl-artifacts",
+      "discovered_in": [
+        "codex"
+      ],
+      "content_sha256": "57e1e0d47c8a9d1120df59184b4b1b79614d6acd3a5fa112ad6d25d2bc350a52"
+    },
+    {
+      "name": "deploy-to-vercel",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/deploy-to-vercel",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "1378aa506439f26c809dbcfc61515cbd70f93d69"
+    },
+    {
+      "name": "deslop",
+      "repo": "cursor/plugins",
+      "path": "cursor-team-kit/skills/deslop",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "ac9ba043f9dd3b3a8850de6624ec5bc12e375599"
+    },
+    {
+      "name": "docs-canvas",
+      "repo": "cursor/plugins",
+      "path": "docs-canvas/skills/docs-canvas",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "3c299809023507ea74c5dbe75a2e2f542573a416"
+    },
+    {
+      "name": "emil-design-eng",
+      "repo": "emilkowalski/skills",
+      "path": "skills/emil-design-eng",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "db7a20dc1d8ad26a0307dcb45ebc79fc372f5c69"
+    },
+    {
+      "name": "faceless-explainer",
+      "repo": "heygen-com/hyperframes",
+      "path": "skills/faceless-explainer",
+      "discovered_in": [
+        "codex",
+        "windows_agents"
+      ],
+      "tree_sha": "2e11fcea77fbce01103e1f706e8d2f2eab76cee3"
+    },
+    {
+      "name": "figure-it-out",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/figure-it-out",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "dde86e306188bfb713f46dc211b48d7ed7b64106"
+    },
+    {
+      "name": "find-animation-opportunities",
+      "repo": "emilkowalski/skills",
+      "path": "skills/find-animation-opportunities",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "e6443880f38e33cf78e5d678471eed35e8566763"
+    },
+    {
+      "name": "find-skills",
+      "repo": "vercel-labs/skills",
+      "path": "skills/find-skills",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "76a98a285cb0434f3d39e1a873823556330e398b"
+    },
+    {
+      "name": "firecrawl",
+      "repo": "firecrawl/skills",
+      "path": "skills/core/firecrawl",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "e32229c64df29b8f1bb1e27073eaf850afe3fed3"
+    },
+    {
+      "name": "firecrawl-agent",
+      "repo": "firecrawl/skills",
+      "path": "skills/core/firecrawl-agent",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "6ecbe69807790fa4b37231e0501a513a538b116c"
+    },
+    {
+      "name": "firecrawl-company-directories",
+      "repo": "firecrawl/skills",
+      "path": "skills/workflows/firecrawl-company-directories",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "590d3b2631019b70cb400b6e955b5e62e318965f"
+    },
+    {
+      "name": "firecrawl-competitive-intel",
+      "repo": "firecrawl/skills",
+      "path": "skills/workflows/firecrawl-competitive-intel",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "402dd605f56697b05277e4937dfac44ae7a36c07"
+    },
+    {
+      "name": "firecrawl-crawl",
+      "repo": "firecrawl/skills",
+      "path": "skills/core/firecrawl-crawl",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "3e998d93b61eaf19e1e1c6da0e2b6ae2e57a7a82"
+    },
+    {
+      "name": "firecrawl-dashboard-reporting",
+      "repo": "firecrawl/skills",
+      "path": "skills/workflows/firecrawl-dashboard-reporting",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "1ecbd1827478e50c37d4c25a11832cac341d27ea"
+    },
+    {
+      "name": "firecrawl-deep-research",
+      "repo": "firecrawl/skills",
+      "path": "skills/workflows/firecrawl-deep-research",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "046c78ee0456e1e0aa049d5c620eb18e1a8e8b2e"
+    },
+    {
+      "name": "firecrawl-demo-walkthrough",
+      "repo": "firecrawl/skills",
+      "path": "skills/workflows/firecrawl-demo-walkthrough",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "f144a9f40d8c63b420bf0c53ee2d3dc4637e3892"
+    },
+    {
+      "name": "firecrawl-developer-index",
+      "repo": "firecrawl/skills",
+      "path": "skills/core/firecrawl-developer-index",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "2427cd58f80d4f7b2d877b19b91f3a51f67c917e"
+    },
+    {
+      "name": "firecrawl-download",
+      "repo": "firecrawl/skills",
+      "path": "skills/core/firecrawl-download",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "5e723040984224228d24a405cabbfc13676c314b"
+    },
+    {
+      "name": "firecrawl-interact",
+      "repo": "firecrawl/skills",
+      "path": "skills/core/firecrawl-interact",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "81ce80930763d47dd312f344c5ad3112f012b128"
+    },
+    {
+      "name": "firecrawl-knowledge-base",
+      "repo": "firecrawl/skills",
+      "path": "skills/workflows/firecrawl-knowledge-base",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "254208de7ec1e7427e675142462880aac2353b11"
+    },
+    {
+      "name": "firecrawl-knowledge-ingest",
+      "repo": "firecrawl/skills",
+      "path": "skills/workflows/firecrawl-knowledge-ingest",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "99587731324ae8a38458e0dae1483a7273c80685"
+    },
+    {
+      "name": "firecrawl-lead-gen",
+      "repo": "firecrawl/skills",
+      "path": "skills/workflows/firecrawl-lead-gen",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "7a45229857c1a6ad7ad5ae910a53dd1787973d01"
+    },
+    {
+      "name": "firecrawl-lead-research",
+      "repo": "firecrawl/skills",
+      "path": "skills/workflows/firecrawl-lead-research",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "e96421e66d506c17491278bf89fae551cbc094e0"
+    },
+    {
+      "name": "firecrawl-map",
+      "repo": "firecrawl/skills",
+      "path": "skills/core/firecrawl-map",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "89f934004d9416d22c82176c6411a78a2c26c645"
+    },
+    {
+      "name": "firecrawl-market-research",
+      "repo": "firecrawl/skills",
+      "path": "skills/workflows/firecrawl-market-research",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "ccea8333ca566437dae1671b12993f3b0d5f14f7"
+    },
+    {
+      "name": "firecrawl-monitor",
+      "repo": "firecrawl/skills",
+      "path": "skills/core/firecrawl-monitor",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "6ceb7fffb1d521a8c1cb5aa375391d3af143dd66"
+    },
+    {
+      "name": "firecrawl-parse",
+      "repo": "firecrawl/skills",
+      "path": "skills/core/firecrawl-parse",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "7421383a7be8244b9ab2192d2e039310cd60426a"
+    },
+    {
+      "name": "firecrawl-qa",
+      "repo": "firecrawl/skills",
+      "path": "skills/workflows/firecrawl-qa",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "5acc18416ffb23d3721fd7803ce20ce659732e9a"
+    },
+    {
+      "name": "firecrawl-research-index",
+      "repo": "firecrawl/skills",
+      "path": "skills/core/firecrawl-research-index",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "e254309417908e89f25f895f1bc77f525acb094e"
+    },
+    {
+      "name": "firecrawl-research-papers",
+      "repo": "firecrawl/skills",
+      "path": "skills/workflows/firecrawl-research-papers",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "7a826887a7fd753de47f11f89334e3eed97e1fc2"
+    },
+    {
+      "name": "firecrawl-scrape",
+      "repo": "firecrawl/skills",
+      "path": "skills/core/firecrawl-scrape",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "40e574a6b626c89c66dccd4f4db6ed5648080083"
+    },
+    {
+      "name": "firecrawl-search",
+      "repo": "firecrawl/skills",
+      "path": "skills/core/firecrawl-search",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "4f6f40687760fef62e88f60973c3ef1b47dfccc9"
+    },
+    {
+      "name": "firecrawl-seo-audit",
+      "repo": "firecrawl/skills",
+      "path": "skills/workflows/firecrawl-seo-audit",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "ffa1b06651abe078627c9f9b563eaee2d7e13e56"
+    },
+    {
+      "name": "firecrawl-shop",
+      "repo": "firecrawl/skills",
+      "path": "skills/workflows/firecrawl-shop",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "3b80a903bdd04cfccba93dc3ca1fa7842c50e98a"
+    },
+    {
+      "name": "firecrawl-website-design-clone",
+      "repo": "firecrawl/skills",
+      "path": "skills/workflows/firecrawl-website-design-clone",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "833112758530416dd04061dfb202389274370691"
+    },
+    {
+      "name": "firecrawl-workflows",
+      "repo": "firecrawl/skills",
+      "path": "skills/workflows/firecrawl-workflows",
+      "discovered_in": [
+        "windows_agents",
+        "codex"
+      ],
+      "tree_sha": "b3fdd67cb3eb9b36ac68cc280ac5dc8de9eaea7a"
+    },
+    {
+      "name": "fix-ci",
+      "repo": "cursor/plugins",
+      "path": "cursor-team-kit/skills/fix-ci",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "22d79ed45a382df99b95e1135f13ad0170500511"
+    },
+    {
+      "name": "fix-merge-conflicts",
+      "repo": "cursor/plugins",
+      "path": "cursor-team-kit/skills/fix-merge-conflicts",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "9a539a5c5359e25c9a57df5a741e42524f2fe3c8"
+    },
+    {
+      "name": "frontend-design",
+      "bundle_path": "custom/frontend-design",
+      "discovered_in": [
+        "codex"
+      ],
+      "content_sha256": "12ab514cc24cdab608302ac2396995516b9bf2076a9082a3d0cf13882def0175"
+    },
+    {
+      "name": "general-video",
+      "repo": "heygen-com/hyperframes",
+      "path": "skills/general-video",
+      "discovered_in": [
+        "codex",
+        "windows_agents"
+      ],
+      "tree_sha": "0b738a13a1f744f7ceea444d0a737b370c7fd3f2"
+    },
+    {
+      "name": "get-pr-comments",
+      "repo": "cursor/plugins",
+      "path": "cursor-team-kit/skills/get-pr-comments",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "5664b99671eeabafef1159cdb663cb162ace770d"
+    },
+    {
+      "name": "gh",
+      "repo": "cli/cli",
+      "path": "skills/gh",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "a4791f98e9351d4a76e6be7716371807b3fdb087"
+    },
+    {
+      "name": "google-agents-cli-adk-code",
+      "repo": "google/agents-cli",
+      "path": "skills/google-agents-cli-adk-code",
+      "discovered_in": [
+        "windows_agents",
+        "wsl_agents"
+      ],
+      "tree_sha": "b186a848857c83a47a765c10b456e3ef8263d78e"
+    },
+    {
+      "name": "google-agents-cli-deploy",
+      "repo": "google/agents-cli",
+      "path": "skills/google-agents-cli-deploy",
+      "discovered_in": [
+        "windows_agents",
+        "wsl_agents"
+      ],
+      "tree_sha": "61512af1672aff3d8007bfb75ba7675d86d48e64"
+    },
+    {
+      "name": "google-agents-cli-eval",
+      "repo": "google/agents-cli",
+      "path": "skills/google-agents-cli-eval",
+      "discovered_in": [
+        "windows_agents",
+        "wsl_agents"
+      ],
+      "tree_sha": "cd195fa0827351834af4a906e87a0e024a1b748d"
+    },
+    {
+      "name": "google-agents-cli-observability",
+      "repo": "google/agents-cli",
+      "path": "skills/google-agents-cli-observability",
+      "discovered_in": [
+        "windows_agents",
+        "wsl_agents"
+      ],
+      "tree_sha": "d74575dc75cb6be82e55d11fc0905c2e8b42a941"
+    },
+    {
+      "name": "google-agents-cli-publish",
+      "repo": "google/agents-cli",
+      "path": "skills/google-agents-cli-publish",
+      "discovered_in": [
+        "windows_agents",
+        "wsl_agents"
+      ],
+      "tree_sha": "4beb4702c673452811e782134e9bc52a52e14509"
+    },
+    {
+      "name": "google-agents-cli-scaffold",
+      "repo": "google/agents-cli",
+      "path": "skills/google-agents-cli-scaffold",
+      "discovered_in": [
+        "windows_agents",
+        "wsl_agents"
+      ],
+      "tree_sha": "6eb93b86a056ce8d9f1abe10bfa777a3aa8dc1e1"
+    },
+    {
+      "name": "google-agents-cli-workflow",
+      "repo": "google/agents-cli",
+      "path": "skills/google-agents-cli-workflow",
+      "discovered_in": [
+        "windows_agents",
+        "wsl_agents"
+      ],
+      "tree_sha": "c781eb8d1d007c1ffe471690d68ef6fd8782c14b"
+    },
+    {
+      "name": "hci-agent-test-lab",
+      "bundle_path": "custom/hci-agent-test-lab",
+      "discovered_in": [
+        "codex"
+      ],
+      "content_sha256": "e0aa0a54ac78fea526d5a2cf3b88717efaa33b9c06eab0e0b228d37c3fcb46a7"
+    },
+    {
+      "name": "headlong-operator",
+      "bundle_path": "custom/headlong-operator",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "content_sha256": "b4bc437d41b6a8858228e9742a0d277cd39e91346e0352e50aa9b048d848d826"
+    },
+    {
+      "name": "here-now",
+      "repo": "heredotnow/skill",
+      "path": "here-now",
+      "discovered_in": [
+        "windows_agents",
+        "wsl_agents"
+      ],
+      "tree_sha": "581b3417645d0aecad7b80e5ac055bbf8d7b8303"
+    },
+    {
+      "name": "how",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/how",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "12b9ed018673a72573574ca5304fc1503a7d16d7"
+    },
+    {
+      "name": "html-generative-ux",
+      "bundle_path": "custom/html-generative-ux",
+      "discovered_in": [
+        "codex"
+      ],
+      "content_sha256": "4030e0eab84b3c60f6d1f650944002bf992f0e619afc652ea2cc41cad0c171ec"
+    },
+    {
+      "name": "hyperframes",
+      "repo": "heygen-com/hyperframes",
+      "path": "skills/hyperframes",
+      "discovered_in": [
+        "codex",
+        "windows_agents",
+        "wsl_agents"
+      ],
+      "tree_sha": "64a04b6541262180ffc4dfbe89cc7496999c036a"
+    },
+    {
+      "name": "hyperframes-animation",
+      "repo": "heygen-com/hyperframes",
+      "path": "skills/hyperframes-animation",
+      "discovered_in": [
+        "codex",
+        "windows_agents"
+      ],
+      "tree_sha": "366d71d4cf8f3534e43e052a5e616e69befc1619"
+    },
+    {
+      "name": "hyperframes-audio",
+      "repo": "heygen-com/hyperframes",
+      "path": "skills/hyperframes-audio",
+      "discovered_in": [
+        "codex",
+        "windows_agents"
+      ],
+      "tree_sha": "05ca1f4bcb5bef31ba53d8b0416677704a682f88"
+    },
+    {
+      "name": "hyperframes-cli",
+      "repo": "heygen-com/hyperframes",
+      "path": "skills/hyperframes-cli",
+      "discovered_in": [
+        "codex",
+        "windows_agents",
+        "wsl_agents"
+      ],
+      "tree_sha": "29e2604265ec8bc5bf78f0510748b05232febd48"
+    },
+    {
+      "name": "hyperframes-core",
+      "repo": "heygen-com/hyperframes",
+      "path": "skills/hyperframes-core",
+      "discovered_in": [
+        "codex",
+        "windows_agents"
+      ],
+      "tree_sha": "a36f88049659a56626e36c792718950344b96003"
+    },
+    {
+      "name": "hyperframes-creative",
+      "repo": "heygen-com/hyperframes",
+      "path": "skills/hyperframes-creative",
+      "discovered_in": [
+        "codex",
+        "windows_agents"
+      ],
+      "tree_sha": "babbc7f918852ef57eca68464aea2c4f8defb9e6"
+    },
+    {
+      "name": "hyperframes-keyframes",
+      "repo": "heygen-com/hyperframes",
+      "path": "skills/hyperframes-keyframes",
+      "discovered_in": [
+        "codex",
+        "windows_agents"
+      ],
+      "tree_sha": "2f42a87ef924110b3b34f407aecb7d08f3581f2c"
+    },
+    {
+      "name": "hyperframes-registry",
+      "repo": "heygen-com/hyperframes",
+      "path": "skills/hyperframes-registry",
+      "discovered_in": [
+        "codex",
+        "windows_agents"
+      ],
+      "tree_sha": "46a050393b88f2bf73ef1d3e3c9e8dbcc1c90ab1"
+    },
+    {
+      "name": "illo",
+      "repo": "tmchow/illo-skill",
+      "path": "skills/illo",
+      "discovered_in": [
+        "windows_agents"
+      ],
+      "tree_sha": "4be51a41cc3781c2c4204b72b8aef4c29dbc1dec"
+    },
+    {
+      "name": "improve-animations",
+      "repo": "emilkowalski/skills",
+      "path": "skills/improve-animations",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "cf1f7aabac34c08f2cf833f039fa99af2f415183"
+    },
+    {
+      "name": "interrogate",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/interrogate",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "708db3e62cd0225367d6fd8841dc38fdb5f1112d"
+    },
+    {
+      "name": "last30days",
+      "repo": "mvanhorn/last30days-skill",
+      "path": "skills/last30days",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "1931154e02dc4aac59506eb92b344a9f2af0baa4"
+    },
+    {
+      "name": "layers-conceptual-model",
+      "repo": "jamiemill/layers-skills",
+      "path": "skills/layers-conceptual-model",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "58417ffa95a65d523bc3ab8c951eac07c00485ab"
+    },
+    {
+      "name": "layers-domain",
+      "repo": "jamiemill/layers-skills",
+      "path": "skills/layers-domain",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "ac33a7da3f5327eddc046fc26917a2b4f8554032"
+    },
+    {
+      "name": "layers-interaction-flow",
+      "repo": "jamiemill/layers-skills",
+      "path": "skills/layers-interaction-flow",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "fe485df167b7f89becfef3111560ce625e8c899b"
+    },
+    {
+      "name": "layers-intro",
+      "repo": "jamiemill/layers-skills",
+      "path": "skills/layers-intro",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "b9c28f742f8d99c5439a2617fcdd0a697eb5dbb6"
+    },
+    {
+      "name": "layers-observed-behaviour",
+      "repo": "jamiemill/layers-skills",
+      "path": "skills/layers-observed-behaviour",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "61046f126b082676d864b7a591f1e4228630eb96"
+    },
+    {
+      "name": "layers-orient",
+      "repo": "jamiemill/layers-skills",
+      "path": "skills/layers-orient",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "fddcc2955989f7ec5a0744400e5db99664eb3208"
+    },
+    {
+      "name": "layers-product-strategy",
+      "repo": "jamiemill/layers-skills",
+      "path": "skills/layers-product-strategy",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "6aaee6ac382981b992e03b92b38281c0873cdeef"
+    },
+    {
+      "name": "layers-surface",
+      "repo": "jamiemill/layers-skills",
+      "path": "skills/layers-surface",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "f8f64c0a6f0a138830111a2fded72c46edec84c5"
+    },
+    {
+      "name": "layers-user-needs",
+      "repo": "jamiemill/layers-skills",
+      "path": "skills/layers-user-needs",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "c492b624ba45f84fd4a76380d0caae44922d4de8"
+    },
+    {
+      "name": "loop",
+      "repo": "alirezarezvani/claude-skills",
+      "path": "engineering/autoresearch-agent/skills/loop",
+      "discovered_in": [
+        "windows_agents"
+      ],
+      "tree_sha": "6b8b5595d8b400755c2a552bbaa3eaccca37a9e9"
+    },
+    {
+      "name": "loop-on-ci",
+      "repo": "cursor/plugins",
+      "path": "cursor-team-kit/skills/loop-on-ci",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "2fc5e4bdb8c0924137377af7cf9d6b7585e092ec"
+    },
+    {
+      "name": "make-pr-easy-to-review",
+      "repo": "cursor/plugins",
+      "path": "cursor-team-kit/skills/make-pr-easy-to-review",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "30493c1d9b061827149f0caafca027a9016f67c6"
+    },
+    {
+      "name": "media-use",
+      "repo": "heygen-com/hyperframes",
+      "path": "skills/media-use",
+      "discovered_in": [
+        "codex",
+        "windows_agents"
+      ],
+      "tree_sha": "e311a4a32af759542c3ca0cb31625fc8062ee3a8"
+    },
+    {
+      "name": "modern-web-guidance",
+      "repo": "GoogleChrome/modern-web-guidance",
+      "path": "skills/modern-web-guidance",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "bb63f9b3fc55c86dccd7e7329de05e122430e8be"
+    },
+    {
+      "name": "network-outreach-control-plane",
+      "bundle_path": "custom/network-outreach-control-plane",
+      "discovered_in": [
+        "codex"
+      ],
+      "content_sha256": "4c94a8070f69bea664216f8610126e6b74921e1e295e7db8a7ac214786de7dc9"
+    },
+    {
+      "name": "new-branch-and-pr",
+      "repo": "cursor/plugins",
+      "path": "cursor-team-kit/skills/new-branch-and-pr",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "509e25255c334b539c466d1fc7d8fd99e15745bf"
+    },
+    {
+      "name": "orca-cli",
+      "repo": "stablyai/orca",
+      "path": "skills/orca-cli",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "572f7952ac451a30a9c2451b472a639b125ee584"
+    },
+    {
+      "name": "orchestrate",
+      "repo": "cursor/plugins",
+      "path": "orchestrate/skills/orchestrate",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "6a89a98dfb47951d6c3e766560151fa2cdcdd2dd"
+    },
+    {
+      "name": "orchestration",
+      "repo": "stablyai/orca",
+      "path": "skills/orchestration",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "b0cd1d58b0c317cf7c3726fef7e6b1197c405246"
+    },
+    {
+      "name": "personal-ai-orchestrator",
+      "bundle_path": "custom/personal-ai-orchestrator",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "content_sha256": "4fbd592f1f11cb8b331da4eddfc8a710cf6c1a7876569c5d48d0a1daf1397a13"
+    },
+    {
+      "name": "poteto-mode",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/poteto-mode",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "5e3616f2b0b753aa7ef0471fe039647488032add"
+    },
+    {
+      "name": "pr-review-canvas",
+      "repo": "cursor/plugins",
+      "path": "pr-review-canvas/skills/pr-review-canvas",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "4525c93130fd1e106b97764e6db228d7bcbdbd3e"
+    },
+    {
+      "name": "principle-boundary-discipline",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-boundary-discipline",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "743b098e6874a93b11e9f4d5843c79a243580ae2"
+    },
+    {
+      "name": "principle-build-the-lever",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-build-the-lever",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "3fb3e945049f52b6a721e329901995fa6289221e"
+    },
+    {
+      "name": "principle-encode-lessons-in-structure",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-encode-lessons-in-structure",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "8875632be32ca6cff494def2810e5e71fceba65d"
+    },
+    {
+      "name": "principle-exhaust-the-design-space",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-exhaust-the-design-space",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "3c9528f7814d889dc91c2434cc942439a9dd6257"
+    },
+    {
+      "name": "principle-experience-first",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-experience-first",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "2dbcf0d0d4473ca3a93d17e2167b587cfec7f6da"
+    },
+    {
+      "name": "principle-fix-root-causes",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-fix-root-causes",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "0ec22d21fffd180573f49ea239ee76083d6a6f40"
+    },
+    {
+      "name": "principle-foundational-thinking",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-foundational-thinking",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "5880f6577956b14ee4ee89cb72c03fd8bd82a5ac"
+    },
+    {
+      "name": "principle-guard-the-context-window",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-guard-the-context-window",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "8c132ce80504b04cb2c04070b9ca8c6932807037"
+    },
+    {
+      "name": "principle-laziness-protocol",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-laziness-protocol",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "69c23647b389130012f04971c6912598e3f3b913"
+    },
+    {
+      "name": "principle-make-operations-idempotent",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-make-operations-idempotent",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "c69d590d8da3af63e34954aa21254e1ec9a2996c"
+    },
+    {
+      "name": "principle-migrate-callers-then-delete-legacy-apis",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-migrate-callers-then-delete-legacy-apis",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "7b49b9000c86ea1ae142af47d0ff5f9f95199c34"
+    },
+    {
+      "name": "principle-minimize-reader-load",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-minimize-reader-load",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "aec92309f89c6e7a4a3cad94e8b7929c1a371643"
+    },
+    {
+      "name": "principle-never-block-on-the-human",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-never-block-on-the-human",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "bbdf25e9f8197253a44342e6e7793324a10965fb"
+    },
+    {
+      "name": "principle-outcome-oriented-execution",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-outcome-oriented-execution",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "8d87411f36c74111e5e54a804dda727e2c034914"
+    },
+    {
+      "name": "principle-prove-it-works",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-prove-it-works",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "41e2142b6479db1dfdb9c2a3b856a895af61089d"
+    },
+    {
+      "name": "principle-redesign-from-first-principles",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-redesign-from-first-principles",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "7d6b29659ee81f3e4ce5475b868bf891a8041e7c"
+    },
+    {
+      "name": "principle-separate-before-serializing-shared-state",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-separate-before-serializing-shared-state",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "89505c32f2d472da415e7696a6893ad28e108c5f"
+    },
+    {
+      "name": "principle-sequence-verifiable-units",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-sequence-verifiable-units",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "c1b345dcea21e3d58e7012f8e6547974d295fb3a"
+    },
+    {
+      "name": "principle-subtract-before-you-add",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-subtract-before-you-add",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "ea107acd74b874b27ec52983384d2ec7d4b8088a"
+    },
+    {
+      "name": "principle-type-system-discipline",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/principle-type-system-discipline",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "88836c25807833f4f8bc79b8c8542fc1c8c558b3"
+    },
+    {
+      "name": "product-craft",
+      "bundle_path": "custom/product-craft",
+      "discovered_in": [
+        "codex"
+      ],
+      "content_sha256": "a5c13e462a9459dfa16e97079a5e071ceeb295447228e5a683045f350ac2aeae"
+    },
+    {
+      "name": "product-launch-video",
+      "repo": "heygen-com/hyperframes",
+      "path": "skills/product-launch-video",
+      "discovered_in": [
+        "codex",
+        "windows_agents"
+      ],
+      "tree_sha": "de9c0acc761bbe79d71ce1398bf92fdf23c277df"
+    },
+    {
+      "name": "ralph-loop",
+      "repo": "cursor/plugins",
+      "path": "ralph-loop/skills/ralph-loop",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "ea05496b6baed1e12f654227ecf6e14928f4b1bc"
+    },
+    {
+      "name": "ralph-loop-help",
+      "repo": "cursor/plugins",
+      "path": "ralph-loop/skills/ralph-loop-help",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "9b928b6f517079d2de4889e59d53bcb33ba96120"
+    },
+    {
+      "name": "reflect",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/reflect",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "772aafc391b56bb1c4ad5079e18084c6e4d47a06"
+    },
+    {
+      "name": "remotion-best-practices",
+      "repo": "remotion-dev/skills",
+      "path": "skills/remotion-best-practices",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "8214634b910947f7462c6c4fad1afff68cbee528"
+    },
+    {
+      "name": "remotion-captions",
+      "repo": "remotion-dev/skills",
+      "path": "skills/remotion-captions",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "a393465fbd1a415d6b44da610011adbf43eac4f8"
+    },
+    {
+      "name": "remotion-create",
+      "repo": "remotion-dev/skills",
+      "path": "skills/remotion-create",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "f98a6fb121b6ae47ea2c9300cf7ce409fdb322d3"
+    },
+    {
+      "name": "remotion-markup",
+      "repo": "remotion-dev/skills",
+      "path": "skills/remotion-markup",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "f3959cb916dcd2761b12e35dd933d58f4f4864ae"
+    },
+    {
+      "name": "remotion-multimedia",
+      "repo": "remotion-dev/skills",
+      "path": "skills/remotion-multimedia",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "e9d0a4aa59bbba17aaa8d244f3007330d5e5893b"
+    },
+    {
+      "name": "remotion-render",
+      "repo": "remotion-dev/skills",
+      "path": "skills/remotion-render",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "eaa74f33e316a713cd89e1899fa64271a929e752"
+    },
+    {
+      "name": "review-and-ship",
+      "repo": "cursor/plugins",
+      "path": "cursor-team-kit/skills/review-and-ship",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "4c59edfc89811ff444ded5e4a3a07932852769a1"
+    },
+    {
+      "name": "review-animations",
+      "repo": "emilkowalski/skills",
+      "path": "skills/review-animations",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "0e0d3cb3e07ca307fe946ccaf57f6c82eb75124a"
+    },
+    {
+      "name": "review-plugin-submission",
+      "repo": "cursor/plugins",
+      "path": "create-plugin/skills/review-plugin-submission",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "66757839ce8072c7b6bd1d6e9729544f145cd12f"
+    },
+    {
+      "name": "run-learning-retrospective",
+      "repo": "cursor/plugins",
+      "path": "teaching/skills/run-learning-retrospective",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "e2b8efdb30a3acc2b99c7dfe128be3b70b39a2ea"
+    },
+    {
+      "name": "run-smoke-tests",
+      "repo": "cursor/plugins",
+      "path": "cursor-team-kit/skills/run-smoke-tests",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "b02dfd55bc710b80585e1cc0dea76e94923e5dab"
+    },
+    {
+      "name": "setup-pstack",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/setup-pstack",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "1c4268fdfc82415c72a45fc65fe2683f6e4c2cd8"
+    },
+    {
+      "name": "show-me-your-work",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/show-me-your-work",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "5ecdc5d5f4b2126b2d28f0bbb091bd5454d7086e"
+    },
+    {
+      "name": "supermemory-add",
+      "bundle_path": "custom/supermemory-add",
+      "discovered_in": [
+        "codex"
+      ],
+      "content_sha256": "4c743f1587b16bed64d41899dfd614bf4b41b6cfc2527656cbfde21fcbd9f2b8"
+    },
+    {
+      "name": "supermemory-forget",
+      "bundle_path": "custom/supermemory-forget",
+      "discovered_in": [
+        "codex"
+      ],
+      "content_sha256": "9f55a1ac68bd9b8366f9662337b7e638b330f913db757311aef75b2d738639fd"
+    },
+    {
+      "name": "supermemory-login",
+      "bundle_path": "custom/supermemory-login",
+      "discovered_in": [
+        "codex"
+      ],
+      "content_sha256": "9d9027f6d756ace1fbdbbbfb28c9d68401f4db4f40d00b344271df7bb1a5d9f9"
+    },
+    {
+      "name": "supermemory-logout",
+      "bundle_path": "custom/supermemory-logout",
+      "discovered_in": [
+        "codex"
+      ],
+      "content_sha256": "cd2ccbeac0ff012b54d3752ea399f982b28bc0a49b7a401fcb94aeed8fc3c25f"
+    },
+    {
+      "name": "supermemory-profile",
+      "bundle_path": "custom/supermemory-profile",
+      "discovered_in": [
+        "codex"
+      ],
+      "content_sha256": "4c0192168cb3d5c35b4363e2b5c6cfd55c2a296f0a458c0914566bdecaf161b8"
+    },
+    {
+      "name": "supermemory-save",
+      "bundle_path": "custom/supermemory-save",
+      "discovered_in": [
+        "codex"
+      ],
+      "content_sha256": "9ab9c3fd72dea4a11b6aafe16dba9cf2ce1e2de7a223c9dfafa4123c060b4c98"
+    },
+    {
+      "name": "supermemory-search",
+      "bundle_path": "custom/supermemory-search",
+      "discovered_in": [
+        "codex"
+      ],
+      "content_sha256": "607bb5a4359aadf5e87adc6fb0c9167996110913295532ccc45325b3503e4153"
+    },
+    {
+      "name": "supermemory-status",
+      "bundle_path": "custom/supermemory-status",
+      "discovered_in": [
+        "codex"
+      ],
+      "content_sha256": "4f64c7263d124e41f6e9beefdaf8d41eccb1c4ab6092cdde721b7ce72d59c4e3"
+    },
+    {
+      "name": "tdd",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/tdd",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "1064da72ceca07bf7f36bddebada585bb59da7bc"
+    },
+    {
+      "name": "thermo-nuclear-code-quality-review",
+      "repo": "cursor/plugins",
+      "path": "cursor-team-kit/skills/thermo-nuclear-code-quality-review",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "d9c8935dd560b3b6f5941247d04a1843f8c7cc35"
+    },
+    {
+      "name": "thermo-nuclear-review",
+      "repo": "cursor/plugins",
+      "path": "thermos/skills/thermo-nuclear-review",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "b222e50771b6bc6f7d2b926b86da2342f160bb79"
+    },
+    {
+      "name": "thermos",
+      "repo": "cursor/plugins",
+      "path": "thermos/skills/thermos",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "56e7ab69f83a54852b54512b536c95ea45ecf1e1"
+    },
+    {
+      "name": "typescript-best-practices",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/typescript-best-practices",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "924cb1d5fee20dc4028a10bf98b26dec8cbdfd83"
+    },
+    {
+      "name": "unslop",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/unslop",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "d5baa969e71c4ddb563412b0ec170fa3b05b6d6e"
+    },
+    {
+      "name": "vercel-cli-with-tokens",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/vercel-cli-with-tokens",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "279c8760375cb6a47a4a8a312b652b0745c6d776"
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/composition-patterns",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "bf90d0a4b83ea054653350f9c67f6de235d3a368"
+    },
+    {
+      "name": "vercel-optimize",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/vercel-optimize",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "0901aa3667db7a6e5cc40b213327290bf6556373"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/react-best-practices",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "343db72180d05814949fef7d46be96b5c6ee86b3"
+    },
+    {
+      "name": "vercel-react-native-skills",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/react-native-skills",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "8b4c6a51914e2111ab6f4f00cb81778652aa241d"
+    },
+    {
+      "name": "vercel-react-view-transitions",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/react-view-transitions",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "13063dbbfc1b085cbc11b9bd5d4324aa2f41bb3a"
+    },
+    {
+      "name": "verify-this",
+      "repo": "cursor/plugins",
+      "path": "cursor-team-kit/skills/verify-this",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "11c9aa1407bc647693437c510bcf5a508244c738"
+    },
+    {
+      "name": "web-design-guidelines",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/web-design-guidelines",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "3116f3e62dbd02b44a598b1aa690d2a8938e8f89"
+    },
+    {
+      "name": "weekly-review",
+      "repo": "cursor/plugins",
+      "path": "cursor-team-kit/skills/weekly-review",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "41c12c115b622e2a70d726f176766192ccb2d912"
+    },
+    {
+      "name": "what-did-i-get-done",
+      "repo": "cursor/plugins",
+      "path": "cursor-team-kit/skills/what-did-i-get-done",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "953a0fb2b6d763e4149da38a543778aed3091368"
+    },
+    {
+      "name": "why",
+      "repo": "cursor/plugins",
+      "path": "pstack/skills/why",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "95da26ff7fe7b8fe70022d19064bd1a9f9e27127"
+    },
+    {
+      "name": "workflow-from-chats",
+      "repo": "cursor/plugins",
+      "path": "cursor-team-kit/skills/workflow-from-chats",
+      "discovered_in": [
+        "codex"
+      ],
+      "tree_sha": "c32988e8a39033397465591a2b5f7a58ea6ea337"
+    },
+    {
+      "name": "write-like-prithvi",
+      "bundle_path": "custom/write-like-prithvi",
+      "discovered_in": [
+        "codex"
+      ],
+      "content_sha256": "b3e3f2b733c65caed6591b94f05db3023ae51f78fa42d39b8347645018103e78"
+    },
+    {
+      "name": "writing-guidelines",
+      "repo": "vercel-labs/agent-skills",
+      "path": "skills/writing-guidelines",
+      "discovered_in": [
+        "wsl_agents"
+      ],
+      "tree_sha": "17d954cadfb8dec50bf0c707c9e7634be9ae9fe8"
+    }
+  ],
+  "remote_plugins": [
+    {
+      "plugin_id": "gmail@openai-curated-remote",
+      "version": "0.1.10"
+    },
+    {
+      "plugin_id": "github@openai-curated-remote",
+      "version": "0.1.12-5f7cd798dc99"
+    },
+    {
+      "plugin_id": "supabase@openai-curated-remote",
+      "version": "1.0.0"
+    },
+    {
+      "plugin_id": "google-calendar@openai-curated-remote",
+      "version": "1.2.7"
+    },
+    {
+      "plugin_id": "vercel@openai-curated-remote",
+      "version": "0.21.4"
+    },
+    {
+      "plugin_id": "app-6a5ae9736be0819199d06d61ac171080@openai-curated-remote",
+      "version": "1.0.0"
+    },
+    {
+      "plugin_id": "finances@openai-curated-remote",
+      "version": "0.1.1"
+    },
+    {
+      "plugin_id": "figma@openai-curated-remote",
+      "version": "13.0.0"
+    },
+    {
+      "plugin_id": "data-analytics@openai-curated-remote",
+      "version": "1.0.11"
+    },
+    {
+      "plugin_id": "app-69fb9378663481919a68e8a2109644e5@openai-curated-remote",
+      "version": "1.0.0"
+    },
+    {
+      "plugin_id": "app-69949aa62bf48191be5e57a01202beca@openai-curated-remote",
+      "version": "1.0.0"
+    },
+    {
+      "plugin_id": "app-695325bae7348191b58ae9349a963d22@openai-curated-remote",
+      "version": "2.0.0"
+    },
+    {
+      "plugin_id": "convex@openai-curated-remote",
+      "version": "2.0.1"
+    },
+    {
+      "plugin_id": "app-68de829bf7648191acd70a907364c67c@openai-curated-remote",
+      "version": "4.1.0"
+    },
+    {
+      "plugin_id": "product-design@openai-curated-remote",
+      "version": "0.1.56"
+    },
+    {
+      "plugin_id": "heygen@openai-curated-remote",
+      "version": "4.0.0"
+    },
+    {
+      "plugin_id": "codex-security@openai-curated-remote",
+      "version": "0.1.31"
+    },
+    {
+      "plugin_id": "hugging-face@openai-curated-remote",
+      "version": "1.0.0"
+    },
+    {
+      "plugin_id": "openai-developers@openai-curated-remote",
+      "version": "1.3.0"
+    },
+    {
+      "plugin_id": "app-6944570636288191b7944d8c4a3fb857@openai-curated-remote",
+      "version": "2.0.0"
+    },
+    {
+      "plugin_id": "app-68f1afc5a6008191a701eaaab428816c@openai-curated-remote",
+      "version": "2.0.0"
+    },
+    {
+      "plugin_id": "app-692fc45571d881919c408fdaa2b92d6c@openai-curated-remote",
+      "version": "1.0.0"
+    },
+    {
+      "plugin_id": "hyperframes@openai-curated-remote",
+      "version": "0.1.2"
+    },
+    {
+      "plugin_id": "app-6943126354348191867f3efffccf94f1@openai-curated-remote",
+      "version": "1.0.0"
+    },
+    {
+      "plugin_id": "unity-workbench@openai-curated-remote",
+      "version": "0.1.3"
+    },
+    {
+      "plugin_id": "unity@openai-curated-remote",
+      "version": "0.1.6-beta"
+    },
+    {
+      "plugin_id": "compound-engineering@openai-curated-remote",
+      "version": "3.24.0"
+    },
+    {
+      "plugin_id": "expo@openai-curated-remote",
+      "version": "1.0.2"
+    },
+    {
+      "plugin_id": "cloudflare@openai-curated-remote",
+      "version": "0.1.2"
+    },
+    {
+      "plugin_id": "openai-templates@openai-curated-remote",
+      "version": "0.1.1"
+    },
+    {
+      "plugin_id": "plugin-management@openai-curated-remote",
+      "version": "0.1.0"
+    }
+  ]
+}

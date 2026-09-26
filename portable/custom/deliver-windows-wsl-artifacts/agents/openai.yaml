@@ -1,0 +1,7 @@
+interface:
+  display_name: "Windows/WSL Artifact Delivery"
+  short_description: "Prevent mixed-path builds and broken media"
+  default_prompt: "Use $deliver-windows-wsl-artifacts to preflight this build and verify every local media artifact renders correctly in Codex."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Personal Network Outreach OS"
+  short_description: "Build and nurture a verified network at zero cost"
+  default_prompt: "Use $network-outreach-control-plane to build my private relationship map from network exports and Gmail, protect known contacts, verify public emails, and prepare human work-first networking."

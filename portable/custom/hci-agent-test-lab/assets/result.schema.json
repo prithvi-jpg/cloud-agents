@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hci-agent-test-lab/result.schema.json",
+  "title": "HCI Agent Tester Result",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "run_id",
+    "agent_id",
+    "profile_id",
+    "status",
+    "browser",
+    "task_outcome",
+    "path",
+    "findings",
+    "positive_signals",
+    "open_questions",
+    "authority_receipt"
+  ],
+  "properties": {
+    "schema_version": { "const": "0.1" },
+    "status": { "enum": ["completed", "blocked", "failed"] },
+    "findings": { "type": "array" },
+    "authority_receipt": {
+      "type": "object",
+      "required": ["mode", "external_writes", "target_writes"]
+    }
+  }
+}

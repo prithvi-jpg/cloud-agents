@@ -1,0 +1,5264 @@
+{
+  "generatedAt": "2026-07-28T20:15:23.436Z",
+  "roots": [
+    "\\\\wsl.localhost\\Ubuntu\\tmp\\html-mastery-study.3dxNzT\\html-effectiveness",
+    "\\\\wsl.localhost\\Ubuntu\\tmp\\html-mastery-study.3dxNzT\\cc-video-editing-deck"
+  ],
+  "fileCount": 34,
+  "totalBytes": 5139823,
+  "totalLines": 20348,
+  "files": [
+    {
+      "repository": "html-effectiveness",
+      "path": "01-exploration-code-approaches.html",
+      "bytes": 14570,
+      "lines": 455,
+      "title": "Debounced search — three approaches",
+      "headings": {
+        "h1": [
+          "Three ways to implement debounced search"
+        ],
+        "h2": [
+          "01 Inline useEffect + setTimeout",
+          "02 Custom useDebounce hook",
+          "03 Tiny external library",
+          "Recommendation"
+        ],
+        "h3": []
+      },
+      "structure": {
+        "sections": 1,
+        "articles": 3,
+        "navs": 0,
+        "asides": 1,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 0,
+        "codeBlocks": 9
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 0,
+        "links": 0,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 5469,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--oat",
+          "--olive",
+          "--gray-150",
+          "--gray-300",
+          "--gray-500",
+          "--gray-700",
+          "--white",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--serif)",
+          "var(--mono)"
+        ],
+        "mediaQueries": 1,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 0,
+        "gridDeclarations": 2,
+        "flexDeclarations": 2,
+        "absoluteDeclarations": 0,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 0,
+        "bytes": 0,
+        "eventTypes": [],
+        "querySelectors": 0,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "page",
+          "page-head",
+          "eyebrow",
+          "prompt-box",
+          "label",
+          "approaches",
+          "approach",
+          "approach-head",
+          "num",
+          "code",
+          "kw",
+          "fn",
+          "str",
+          "tradeoffs",
+          "row head",
+          "cell",
+          "row",
+          "cell pro",
+          "cell con",
+          "chips",
+          "chip",
+          "cm",
+          "reco"
+        ],
+        "dataAttributes": [],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "02-exploration-visual-designs.html",
+      "bytes": 14045,
+      "lines": 517,
+      "title": "Empty state — four visual directions",
+      "headings": {
+        "h1": [
+          "Four visual directions for the “no tasks yet” state"
+        ],
+        "h2": [],
+        "h3": [
+          "No tasks yet",
+          "Start your first list",
+          "Nothing on your plate",
+          "Set up this project"
+        ]
+      },
+      "structure": {
+        "sections": 1,
+        "articles": 4,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 1,
+        "codeBlocks": 0
+      },
+      "media": {
+        "svg": 1,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 0,
+        "links": 0,
+        "inputs": 2,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 1,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 2
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 8761,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--oat",
+          "--olive",
+          "--gray-150",
+          "--gray-300",
+          "--gray-500",
+          "--gray-700",
+          "--white",
+          "--serif",
+          "--sans",
+          "--mono",
+          "--fg",
+          "--muted",
+          "--line",
+          "--panel"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 1,
+        "keyframes": [
+          "bob",
+          "shadow"
+        ],
+        "animationDeclarations": 2,
+        "transitionDeclarations": 1,
+        "gridDeclarations": 1,
+        "flexDeclarations": 5,
+        "absoluteDeclarations": 2,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 1,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 250,
+        "eventTypes": [
+          "change"
+        ],
+        "querySelectors": 1,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "toolbar",
+          "title",
+          "field",
+          "seg",
+          "page",
+          "page-head",
+          "eyebrow",
+          "prompt-box",
+          "label",
+          "board",
+          "artboard",
+          "tag",
+          "stage",
+          "es-a",
+          "btn",
+          "rationale",
+          "es-b",
+          "es-c",
+          "float",
+          "card",
+          "shadow",
+          "es-d"
+        ],
+        "dataAttributes": [],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": true,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "03-code-review-pr.html",
+      "bytes": 26306,
+      "lines": 640,
+      "title": "PR #247 — Review Summary",
+      "headings": {
+        "h1": [
+          "Add optimistic updates to task list mutations"
+        ],
+        "h2": [
+          "What this PR does",
+          "Risk map",
+          "Files",
+          "Suggested next steps"
+        ],
+        "h3": []
+      },
+      "structure": {
+        "sections": 3,
+        "articles": 3,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 3,
+        "tables": 0,
+        "lists": 2,
+        "codeBlocks": 18
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 1,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 0,
+        "links": 6,
+        "inputs": 3,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 3
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 9214,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--oat",
+          "--olive",
+          "--rust",
+          "--gray-150",
+          "--gray-300",
+          "--gray-500",
+          "--gray-700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 0,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 1,
+        "gridDeclarations": 1,
+        "flexDeclarations": 9,
+        "absoluteDeclarations": 2,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 492,
+        "eventTypes": [
+          "click"
+        ],
+        "querySelectors": 2,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 1
+      },
+      "conventions": {
+        "classNames": [
+          "page",
+          "pr-head",
+          "repo-line",
+          "meta-row",
+          "author",
+          "avatar",
+          "author-name",
+          "author-sub",
+          "branch",
+          "arrow",
+          "stat",
+          "add",
+          "del",
+          "files",
+          "prose",
+          "risk-map",
+          "chip attention",
+          "dot",
+          "chip medium",
+          "chip safe",
+          "legend",
+          "file-card",
+          "file-head",
+          "file-path",
+          "risk-tag attention",
+          "file-delta",
+          "diff",
+          "diff-row hunk",
+          "ln",
+          "mark",
+          "code",
+          "diff-row add",
+          "comments",
+          "bubble blocking",
+          "anchor",
+          "label",
+          "bubble nit",
+          "risk-tag medium",
+          "diff-row ctx",
+          "diff-row del",
+          "file-collapsed",
+          "risk-tag safe",
+          "body",
+          "next-steps",
+          "checklist"
+        ],
+        "dataAttributes": [],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "04-code-understanding.html",
+      "bytes": 17966,
+      "lines": 493,
+      "title": "How authentication flows through acme/web",
+      "headings": {
+        "h1": [
+          "How authentication flows through the codebase"
+        ],
+        "h2": [
+          "Request path",
+          "Callstack walkthrough"
+        ],
+        "h3": [
+          "Key files",
+          "Gotchas"
+        ]
+      },
+      "structure": {
+        "sections": 0,
+        "articles": 0,
+        "navs": 0,
+        "asides": 1,
+        "dialogs": 0,
+        "details": 5,
+        "tables": 0,
+        "lists": 2,
+        "codeBlocks": 32
+      },
+      "media": {
+        "svg": 1,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 0,
+        "links": 0,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 1,
+        "roles": [
+          "img"
+        ],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 5562,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--oat",
+          "--olive",
+          "--rust",
+          "--gray-150",
+          "--gray-300",
+          "--gray-500",
+          "--gray-700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 1,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 1,
+        "gridDeclarations": 2,
+        "flexDeclarations": 1,
+        "absoluteDeclarations": 1,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 1,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 364,
+        "eventTypes": [
+          "toggle"
+        ],
+        "querySelectors": 1,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "page",
+          "repo-line",
+          "summary",
+          "diagram-panel",
+          "flow",
+          "box",
+          "sub",
+          "box hot",
+          "arrow",
+          "step",
+          "badge",
+          "step-body",
+          "step-loc",
+          "range",
+          "snippet",
+          "code",
+          "dim",
+          "kw",
+          "str",
+          "step hot",
+          "panel",
+          "key-files",
+          "path",
+          "desc",
+          "gotchas"
+        ],
+        "dataAttributes": [],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "05-design-system.html",
+      "bytes": 18169,
+      "lines": 631,
+      "title": "Acme — Design System Reference",
+      "headings": {
+        "h1": [
+          "Acme design system"
+        ],
+        "h2": [
+          "Color",
+          "Typography",
+          "Spacing",
+          "Radius & Elevation",
+          "Core components"
+        ],
+        "h3": []
+      },
+      "structure": {
+        "sections": 5,
+        "articles": 0,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 0,
+        "codeBlocks": 2
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 4,
+        "links": 0,
+        "inputs": 4,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 2
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 8437,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--oat",
+          "--olive",
+          "--gray-100",
+          "--gray-300",
+          "--gray-500",
+          "--gray-700",
+          "--white",
+          "--serif",
+          "--sans",
+          "--mono",
+          "--radius-panel",
+          "--radius-row",
+          "--border"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--serif)",
+          "var(--mono)"
+        ],
+        "mediaQueries": 0,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 3,
+        "gridDeclarations": 1,
+        "flexDeclarations": 7,
+        "absoluteDeclarations": 1,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 0,
+        "bytes": 0,
+        "eventTypes": [],
+        "querySelectors": 0,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "page",
+          "sub",
+          "rule",
+          "swatch-group",
+          "swatch-group-label",
+          "swatch-grid",
+          "swatch",
+          "chip no-border",
+          "hex",
+          "token",
+          "chip",
+          "type-scale",
+          "type-row",
+          "type-specimen t-display",
+          "type-meta",
+          "name",
+          "type-specimen t-h1",
+          "type-specimen t-h2",
+          "type-specimen t-body",
+          "type-specimen t-small",
+          "type-specimen t-caption",
+          "spacing-ruler",
+          "space-token",
+          "space-bar",
+          "space-label",
+          "token-row",
+          "radius-card",
+          "lbl",
+          "shadow-card",
+          "component",
+          "component-name",
+          "component-stage",
+          "btn btn-primary",
+          "btn btn-secondary",
+          "btn btn-ghost",
+          "btn btn-danger",
+          "input",
+          "checkbox",
+          "badge badge-neutral",
+          "badge badge-accent",
+          "badge badge-success",
+          "badge badge-warning"
+        ],
+        "dataAttributes": [],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "06-component-variants.html",
+      "bytes": 16665,
+      "lines": 607,
+      "title": "Acme — Card Variant Matrix",
+      "headings": {
+        "h1": [
+          "Card variant matrix"
+        ],
+        "h2": [],
+        "h3": []
+      },
+      "structure": {
+        "sections": 0,
+        "articles": 0,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 0,
+        "codeBlocks": 2
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 12,
+        "links": 0,
+        "inputs": 5,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 4
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 7762,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--oat",
+          "--olive",
+          "--gray-100",
+          "--gray-300",
+          "--gray-500",
+          "--gray-700",
+          "--white",
+          "--serif",
+          "--sans",
+          "--mono",
+          "--card-pad",
+          "--card-border",
+          "--card-shadow"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--serif)",
+          "var(--mono)"
+        ],
+        "mediaQueries": 2,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 1,
+        "gridDeclarations": 1,
+        "flexDeclarations": 6,
+        "absoluteDeclarations": 2,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 1,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 1498,
+        "eventTypes": [
+          "input",
+          "change",
+          "mouseenter"
+        ],
+        "querySelectors": 2,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "page",
+          "toolbar",
+          "control",
+          "control-label",
+          "control-value",
+          "radio-group",
+          "check",
+          "grid",
+          "cell",
+          "variant-label",
+          "card v-flat",
+          "card-head",
+          "avatar",
+          "card-titles",
+          "card-title",
+          "card-sub",
+          "chips",
+          "chip",
+          "chip olive",
+          "ghost-btn",
+          "variant-note",
+          "card v-outlined",
+          "card v-elevated",
+          "card v-stripe",
+          "card v-inset",
+          "card v-horizontal",
+          "snippet-panel",
+          "snippet-head"
+        ],
+        "dataAttributes": [
+          "data-snippet"
+        ],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "07-prototype-animation.html",
+      "bytes": 12517,
+      "lines": 457,
+      "title": "Acme — Task completed micro-interaction",
+      "headings": {
+        "h1": [
+          "Task completed"
+        ],
+        "h2": [
+          "Easing",
+          "Keyframes",
+          "Copy-paste CSS"
+        ],
+        "h3": []
+      },
+      "structure": {
+        "sections": 2,
+        "articles": 0,
+        "navs": 0,
+        "asides": 1,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 0,
+        "codeBlocks": 5
+      },
+      "media": {
+        "svg": 1,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 3,
+        "links": 0,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 8412,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--oat",
+          "--olive",
+          "--gray-50",
+          "--gray-200",
+          "--gray-500",
+          "--gray-800",
+          "--white",
+          "--serif",
+          "--sans",
+          "--mono",
+          "--ease",
+          "--dx",
+          "--dy",
+          "--rot"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 0,
+        "keyframes": [
+          "settle",
+          "pop"
+        ],
+        "animationDeclarations": 2,
+        "transitionDeclarations": 6,
+        "gridDeclarations": 1,
+        "flexDeclarations": 2,
+        "absoluteDeclarations": 7,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 492,
+        "eventTypes": [
+          "click"
+        ],
+        "querySelectors": 1,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "wrap",
+          "eyebrow",
+          "sub",
+          "bench",
+          "stage",
+          "task",
+          "check",
+          "label",
+          "due",
+          "confetti c1",
+          "confetti c2",
+          "confetti c3",
+          "confetti c4",
+          "confetti c5",
+          "confetti c6",
+          "hint",
+          "panel",
+          "ease-btn",
+          "ease-btn active",
+          "timeline",
+          "track",
+          "key k1",
+          "key k2",
+          "key k3",
+          "key k4",
+          "key k5",
+          "snippet",
+          "c",
+          "k",
+          "v"
+        ],
+        "dataAttributes": [
+          "data-ease"
+        ],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": true,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "08-prototype-interaction.html",
+      "bytes": 10880,
+      "lines": 398,
+      "title": "Acme — Sidebar drag-to-reorder",
+      "headings": {
+        "h1": [
+          "Sidebar drag-to-reorder"
+        ],
+        "h2": [
+          "What you're feeling",
+          "Open questions"
+        ],
+        "h3": []
+      },
+      "structure": {
+        "sections": 2,
+        "articles": 0,
+        "navs": 1,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 3,
+        "codeBlocks": 2
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 0,
+        "links": 0,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 5068,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--oat",
+          "--olive",
+          "--gray-50",
+          "--gray-200",
+          "--gray-500",
+          "--gray-800",
+          "--white",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 0,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 2,
+        "gridDeclarations": 2,
+        "flexDeclarations": 1,
+        "absoluteDeclarations": 3,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 1803,
+        "eventTypes": [
+          "dragstart",
+          "dragover",
+          "drop",
+          "dragleave",
+          "dragend"
+        ],
+        "querySelectors": 0,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 3,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "wrap",
+          "eyebrow",
+          "sub",
+          "inline",
+          "bench",
+          "sidebar",
+          "sidebar-title",
+          "list",
+          "item",
+          "grip",
+          "label",
+          "count",
+          "indicator",
+          "footnote",
+          "notes",
+          "lede",
+          "questions"
+        ],
+        "dataAttributes": [],
+        "usesSlides": true,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "09-slide-deck.html",
+      "bytes": 16604,
+      "lines": 594,
+      "title": "Platform Eng — Week of Mar 10",
+      "headings": {
+        "h1": [
+          "Platform Eng — Week of Mar 10"
+        ],
+        "h2": [
+          "Three things out the door",
+          "Carrying into next week",
+          "Numbers we watch",
+          "One call to make",
+          "On deck"
+        ],
+        "h3": []
+      },
+      "structure": {
+        "sections": 6,
+        "articles": 0,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 3,
+        "codeBlocks": 0
+      },
+      "media": {
+        "svg": 2,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 0,
+        "links": 0,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 2,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 7919,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--oat",
+          "--olive",
+          "--gray-150",
+          "--gray-300",
+          "--gray-500",
+          "--gray-700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 1,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 0,
+        "gridDeclarations": 2,
+        "flexDeclarations": 7,
+        "absoluteDeclarations": 1,
+        "fixedDeclarations": 1,
+        "stickyDeclarations": 0,
+        "clampUses": 2,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 977,
+        "eventTypes": [
+          "keydown"
+        ],
+        "querySelectors": 1,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [
+          "IntersectionObserver"
+        ],
+        "keyboardLogic": 1,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "slide title-slide",
+          "slide-inner",
+          "ornament",
+          "subtitle",
+          "byline",
+          "slide",
+          "eyebrow",
+          "ship-list",
+          "ship-item",
+          "ship-dot",
+          "ship-title",
+          "ship-desc",
+          "ship-ref",
+          "prog-list",
+          "prog-item",
+          "prog-head",
+          "prog-title",
+          "prog-pct",
+          "prog-track",
+          "prog-fill",
+          "prog-note",
+          "metrics",
+          "metric",
+          "metric-label",
+          "metric-value",
+          "metric-delta down",
+          "sparkline-wrap",
+          "sparkline-caption",
+          "slide invert",
+          "decision-card",
+          "decision-q",
+          "decision-context",
+          "options",
+          "chip lean",
+          "chip",
+          "next-list",
+          "footnote"
+        ],
+        "dataAttributes": [],
+        "usesSlides": true,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "10-svg-illustrations.html",
+      "bytes": 18426,
+      "lines": 494,
+      "title": "Background jobs — header illustrations",
+      "headings": {
+        "h1": [
+          "Background jobs — header illustrations"
+        ],
+        "h2": [
+          "Palette & rules"
+        ],
+        "h3": []
+      },
+      "structure": {
+        "sections": 1,
+        "articles": 0,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 1,
+        "codeBlocks": 2
+      },
+      "media": {
+        "svg": 3,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": [
+          "www.w3.org"
+        ]
+      },
+      "controls": {
+        "buttons": 3,
+        "links": 0,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 4,
+        "bytes": 4081,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--oat",
+          "--olive",
+          "--gray-150",
+          "--gray-300",
+          "--gray-500",
+          "--gray-700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--serif)",
+          "var(--mono)",
+          "ui-monospace, \"SF Mono\", Menlo, Consolas, monospace",
+          "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif"
+        ],
+        "mediaQueries": 0,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 0,
+        "gridDeclarations": 1,
+        "flexDeclarations": 1,
+        "absoluteDeclarations": 1,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 578,
+        "eventTypes": [
+          "click"
+        ],
+        "querySelectors": 1,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 1
+      },
+      "conventions": {
+        "classNames": [
+          "sheet",
+          "lead",
+          "meta",
+          "canvas",
+          "s",
+          "m",
+          "cap-text",
+          "cap-title",
+          "cap-sub",
+          "dl",
+          "palette",
+          "swatches",
+          "swatch",
+          "swatch-chip",
+          "swatch-meta",
+          "swatch-name",
+          "swatch-hex",
+          "notes"
+        ],
+        "dataAttributes": [
+          "data-target",
+          "data-filename"
+        ],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": true,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "11-status-report.html",
+      "bytes": 16459,
+      "lines": 530,
+      "title": "Acme — Engineering Status — Week 11",
+      "headings": {
+        "h1": [
+          "Engineering Status &mdash; Week 11"
+        ],
+        "h2": [
+          "Highlights",
+          "Shipped",
+          "Velocity",
+          "Carryover"
+        ],
+        "h3": []
+      },
+      "structure": {
+        "sections": 5,
+        "articles": 0,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 1,
+        "lists": 1,
+        "codeBlocks": 1
+      },
+      "media": {
+        "svg": 1,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 0,
+        "links": 8,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 1,
+        "roles": [
+          "img"
+        ],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 6272,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--oat",
+          "--olive",
+          "--rust",
+          "--gray-100",
+          "--gray-300",
+          "--gray-500",
+          "--gray-700",
+          "--white",
+          "--serif",
+          "--sans",
+          "--mono",
+          "--radius-panel",
+          "--radius-row",
+          "--border"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--serif)",
+          "var(--mono)"
+        ],
+        "mediaQueries": 1,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 0,
+        "gridDeclarations": 1,
+        "flexDeclarations": 2,
+        "absoluteDeclarations": 1,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 0,
+        "bytes": 0,
+        "eventTypes": [],
+        "querySelectors": 0,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "page",
+          "header-top",
+          "auto-pill",
+          "date-range",
+          "repo",
+          "summary-band",
+          "stat-card",
+          "stat-num",
+          "stat-label",
+          "stat-delta up",
+          "stat-delta flat",
+          "stat-card warn",
+          "rule",
+          "highlights",
+          "shipped",
+          "pr-link",
+          "author",
+          "risk",
+          "risk-dot med",
+          "risk-dot low",
+          "risk-dot high",
+          "chart-panel",
+          "chart-caption",
+          "carryover",
+          "carry-item",
+          "carry-tag",
+          "carry-body",
+          "who"
+        ],
+        "dataAttributes": [],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": true,
+        "usesTimeline": false,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "12-incident-report.html",
+      "bytes": 15568,
+      "lines": 598,
+      "title": "INC-2025-0412 — Elevated 502s on task sync",
+      "headings": {
+        "h1": [
+          "Elevated 502s on task sync"
+        ],
+        "h2": [
+          "Timeline",
+          "Root cause",
+          "Impact",
+          "Action items"
+        ],
+        "h3": []
+      },
+      "structure": {
+        "sections": 4,
+        "articles": 0,
+        "navs": 1,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 1,
+        "lists": 0,
+        "codeBlocks": 7
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 0,
+        "links": 5,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 7962,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--oat",
+          "--olive",
+          "--rust",
+          "--gray-100",
+          "--gray-300",
+          "--gray-500",
+          "--gray-700",
+          "--white",
+          "--serif",
+          "--sans",
+          "--mono",
+          "--radius-panel",
+          "--radius-row",
+          "--border"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 1,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 0,
+        "gridDeclarations": 1,
+        "flexDeclarations": 2,
+        "absoluteDeclarations": 3,
+        "fixedDeclarations": 1,
+        "stickyDeclarations": 0,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 0,
+        "bytes": 0,
+        "eventTypes": [],
+        "querySelectors": 0,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "toc",
+          "toc-title",
+          "page",
+          "inc-id",
+          "meta-row",
+          "pill sev",
+          "pill resolved",
+          "pill neutral",
+          "k",
+          "v",
+          "tldr",
+          "tldr-label",
+          "rule",
+          "timeline",
+          "tl-entry",
+          "tl-dot",
+          "tl-time",
+          "tl-body",
+          "inline",
+          "tl-dot impact",
+          "tl-dot mitigated",
+          "code-panel",
+          "path",
+          "diff-line ctx",
+          "diff-line del",
+          "diff-line add",
+          "impact",
+          "actions",
+          "ai-row done",
+          "ai-check",
+          "ai-avatar",
+          "ai-desc",
+          "ai-due",
+          "ai-row"
+        ],
+        "dataAttributes": [],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": true,
+        "usesTimeline": true,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "13-flowchart-diagram.html",
+      "bytes": 15355,
+      "lines": 397,
+      "title": "Deploy pipeline — annotated flowchart",
+      "headings": {
+        "h1": [
+          "What happens when you git push"
+        ],
+        "h2": [],
+        "h3": [
+          "git push main"
+        ]
+      },
+      "structure": {
+        "sections": 0,
+        "articles": 0,
+        "navs": 0,
+        "asides": 1,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 0,
+        "codeBlocks": 16
+      },
+      "media": {
+        "svg": 1,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": [
+          "acme.app"
+        ]
+      },
+      "controls": {
+        "buttons": 0,
+        "links": 0,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 4594,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--oat",
+          "--olive",
+          "--rust",
+          "--gray-150",
+          "--gray-300",
+          "--gray-500",
+          "--gray-700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 1,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 1,
+        "gridDeclarations": 1,
+        "flexDeclarations": 1,
+        "absoluteDeclarations": 0,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 1,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 4362,
+        "eventTypes": [
+          "click"
+        ],
+        "querySelectors": 2,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "sheet",
+          "eyebrow",
+          "lead",
+          "layout",
+          "canvas",
+          "flow",
+          "edge",
+          "edge yes",
+          "lbl",
+          "edge no",
+          "node term",
+          "node",
+          "sub",
+          "node gate",
+          "node bad",
+          "node ok term",
+          "legend",
+          "chip",
+          "chip gate",
+          "chip ok",
+          "chip bad",
+          "hint",
+          "meta"
+        ],
+        "dataAttributes": [
+          "data-k"
+        ],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "14-research-feature-explainer.html",
+      "bytes": 12407,
+      "lines": 383,
+      "title": "How rate limiting works in acme/api",
+      "headings": {
+        "h1": [
+          "How rate limiting works in acme/api"
+        ],
+        "h2": [
+          "The request path, step by step",
+          "Configuring a limit on your route",
+          "Gotchas worth knowing",
+          "FAQ"
+        ],
+        "h3": []
+      },
+      "structure": {
+        "sections": 0,
+        "articles": 0,
+        "navs": 1,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 4,
+        "tables": 0,
+        "lists": 1,
+        "codeBlocks": 34
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 3,
+        "links": 9,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 5580,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--oat",
+          "--olive",
+          "--gray-150",
+          "--gray-300",
+          "--gray-500",
+          "--gray-700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 1,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 1,
+        "gridDeclarations": 1,
+        "flexDeclarations": 3,
+        "absoluteDeclarations": 0,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 1,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 389,
+        "eventTypes": [
+          "click"
+        ],
+        "querySelectors": 3,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "page",
+          "label",
+          "l2",
+          "files",
+          "eyebrow",
+          "tldr",
+          "where",
+          "body",
+          "tabs",
+          "tabbar",
+          "on",
+          "cm",
+          "hl",
+          "callout",
+          "ico",
+          "faq"
+        ],
+        "dataAttributes": [
+          "data-tabs",
+          "data-t"
+        ],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": true
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "15-research-concept-explainer.html",
+      "bytes": 13635,
+      "lines": 370,
+      "title": "Consistent hashing — an interactive explainer",
+      "headings": {
+        "h1": [
+          "Consistent hashing, in one ring"
+        ],
+        "h2": [
+          "The trick: hash onto a circle, not a line",
+          "Versus mod N",
+          "Where you'll meet it"
+        ],
+        "h3": []
+      },
+      "structure": {
+        "sections": 0,
+        "articles": 0,
+        "navs": 0,
+        "asides": 1,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 1,
+        "lists": 0,
+        "codeBlocks": 6
+      },
+      "media": {
+        "svg": 1,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 3,
+        "links": 0,
+        "inputs": 2,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 2
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 5078,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--oat",
+          "--olive",
+          "--sky",
+          "--gray-150",
+          "--gray-300",
+          "--gray-500",
+          "--gray-700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 2,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 3,
+        "gridDeclarations": 2,
+        "flexDeclarations": 1,
+        "absoluteDeclarations": 0,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 1,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 3991,
+        "eventTypes": [
+          "mouseenter",
+          "mouseleave"
+        ],
+        "querySelectors": 3,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "page",
+          "eyebrow",
+          "lead",
+          "term",
+          "demo",
+          "demo-grid",
+          "ring",
+          "controls",
+          "row",
+          "val",
+          "readout",
+          "moved",
+          "bad",
+          "good",
+          "label",
+          "track",
+          "arc",
+          "key",
+          "node",
+          "lbl"
+        ],
+        "dataAttributes": [
+          "data-term",
+          "data-g"
+        ],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "16-implementation-plan.html",
+      "bytes": 28712,
+      "lines": 704,
+      "title": "Implementation plan — Comment threads on task cards",
+      "headings": {
+        "h1": [
+          "Comment threads on task cards"
+        ],
+        "h2": [
+          "Milestones",
+          "Data flow",
+          "Mockups",
+          "Key code",
+          "Risks & mitigations",
+          "Open questions"
+        ],
+        "h3": [
+          "Schema & API contract",
+          "Thread component & composer",
+          "Realtime fan-out & unread state",
+          "Notifications, flag ramp, docs"
+        ]
+      },
+      "structure": {
+        "sections": 6,
+        "articles": 0,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 0,
+        "codeBlocks": 12
+      },
+      "media": {
+        "svg": 1,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": [
+          "www.w3.org"
+        ]
+      },
+      "controls": {
+        "buttons": 0,
+        "links": 0,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 11149,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--oat",
+          "--olive",
+          "--gray-150",
+          "--gray-300",
+          "--gray-500",
+          "--gray-700",
+          "--white",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--serif)",
+          "var(--mono)"
+        ],
+        "mediaQueries": 5,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 0,
+        "gridDeclarations": 5,
+        "flexDeclarations": 13,
+        "absoluteDeclarations": 0,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 0,
+        "bytes": 0,
+        "eventTypes": [],
+        "querySelectors": 0,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "page",
+          "page-head",
+          "eyebrow",
+          "prompt-box",
+          "label",
+          "summary",
+          "cell",
+          "k",
+          "v accent",
+          "v",
+          "sec-head",
+          "num",
+          "sec-intro",
+          "milestones",
+          "milestone",
+          "when",
+          "dot-col",
+          "dot done",
+          "line",
+          "body",
+          "tags",
+          "tag",
+          "dot",
+          "diagram",
+          "caption",
+          "mocks",
+          "mock",
+          "mock-label",
+          "mock-body",
+          "card-mock",
+          "cm-title",
+          "cm-meta",
+          "cm-divider",
+          "thread",
+          "comment",
+          "avatar",
+          "bubble",
+          "author",
+          "time",
+          "text",
+          "reply-link",
+          "comment nested",
+          "avatar alt",
+          "composer",
+          "field",
+          "send",
+          "digest",
+          "row unread",
+          "mini-av",
+          "txt",
+          "on",
+          "row",
+          "code-grid",
+          "code-block",
+          "file-label",
+          "code",
+          "kw",
+          "fn",
+          "cm",
+          "str"
+        ],
+        "dataAttributes": [],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": true,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "17-pr-writeup.html",
+      "bytes": 24540,
+      "lines": 597,
+      "title": "PR #312 — Move notification delivery onto a queue",
+      "headings": {
+        "h1": [
+          "#312 — Move notification delivery onto a queue"
+        ],
+        "h2": [
+          "Why",
+          "File-by-file",
+          "Where to focus your review",
+          "Test plan",
+          "Rollout"
+        ],
+        "h3": []
+      },
+      "structure": {
+        "sections": 5,
+        "articles": 0,
+        "navs": 1,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 6,
+        "tables": 0,
+        "lists": 2,
+        "codeBlocks": 18
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 1,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 0,
+        "links": 8,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 10366,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--oat",
+          "--olive",
+          "--gray-150",
+          "--gray-300",
+          "--gray-500",
+          "--gray-700",
+          "--white",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--serif)",
+          "var(--mono)"
+        ],
+        "mediaQueries": 4,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 1,
+        "gridDeclarations": 2,
+        "flexDeclarations": 10,
+        "absoluteDeclarations": 1,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 1,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 0,
+        "bytes": 0,
+        "eventTypes": [],
+        "querySelectors": 0,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "page",
+          "page-head",
+          "eyebrow",
+          "pr-meta",
+          "stat",
+          "add",
+          "del",
+          "prompt-box",
+          "label",
+          "layout",
+          "tldr",
+          "k",
+          "lede",
+          "ba",
+          "panel",
+          "panel after",
+          "file-tour",
+          "file",
+          "chev",
+          "path",
+          "badge new",
+          "file-body",
+          "why",
+          "code",
+          "fn",
+          "str",
+          "kw",
+          "cm",
+          "badge mod",
+          "focus",
+          "item",
+          "n",
+          "t",
+          "d",
+          "tests",
+          "test done",
+          "check",
+          "note",
+          "test",
+          "rollout",
+          "step",
+          "when",
+          "pct",
+          "toc",
+          "t-head",
+          "sub"
+        ],
+        "dataAttributes": [],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": true,
+        "usesTimeline": false,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "18-editor-triage-board.html",
+      "bytes": 18654,
+      "lines": 575,
+      "title": "Acme — Cycle 14 triage",
+      "headings": {
+        "h1": [
+          "Cycle 14 triage"
+        ],
+        "h2": [],
+        "h3": []
+      },
+      "structure": {
+        "sections": 0,
+        "articles": 0,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 0,
+        "codeBlocks": 0
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 3,
+        "links": 0,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 7137,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--clay-d",
+          "--oat",
+          "--olive",
+          "--gray-50",
+          "--gray-200",
+          "--gray-500",
+          "--gray-800",
+          "--white",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 1,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 1,
+        "gridDeclarations": 1,
+        "flexDeclarations": 9,
+        "absoluteDeclarations": 0,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 2,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 10393,
+        "eventTypes": [
+          "dragover",
+          "dragleave",
+          "drop",
+          "click",
+          "dragstart",
+          "dragend"
+        ],
+        "querySelectors": 1,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 10,
+        "timers": 1
+      },
+      "conventions": {
+        "classNames": [
+          "wrap",
+          "eyebrow",
+          "sub",
+          "hintline",
+          "toolbar",
+          "summary",
+          "spacer",
+          "filter-active",
+          "ghost",
+          "primary",
+          "board",
+          "dot"
+        ],
+        "dataAttributes": [],
+        "usesSlides": false,
+        "usesEditor": true,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "19-editor-feature-flags.html",
+      "bytes": 18985,
+      "lines": 665,
+      "title": "Acme — flags.production.json",
+      "headings": {
+        "h1": [
+          "flags.production.json"
+        ],
+        "h2": [],
+        "h3": []
+      },
+      "structure": {
+        "sections": 0,
+        "articles": 0,
+        "navs": 0,
+        "asides": 1,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 0,
+        "codeBlocks": 1
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 3,
+        "links": 0,
+        "inputs": 1,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 1,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 1
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 7187,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--clay-d",
+          "--oat",
+          "--olive",
+          "--gray-50",
+          "--gray-200",
+          "--gray-500",
+          "--gray-800",
+          "--white",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 1,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 4,
+        "gridDeclarations": 1,
+        "flexDeclarations": 7,
+        "absoluteDeclarations": 3,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 1,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 10340,
+        "eventTypes": [
+          "click",
+          "change"
+        ],
+        "querySelectors": 4,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 1
+      },
+      "conventions": {
+        "classNames": [
+          "wrap",
+          "eyebrow",
+          "sub",
+          "layout",
+          "banner",
+          "glyph",
+          "form-col",
+          "sidebar",
+          "side-label",
+          "side-count",
+          "diff",
+          "empty",
+          "btn-stack",
+          "btn primary",
+          "btn ghost",
+          "name",
+          "meta",
+          "rollout",
+          "req-chip",
+          "warn-glyph",
+          "toggle",
+          "track",
+          "flag-info",
+          "flag-key",
+          "dot",
+          "flag-desc",
+          "minus",
+          "plus",
+          "sep"
+        ],
+        "dataAttributes": [
+          "data-meta",
+          "data-key"
+        ],
+        "usesSlides": false,
+        "usesEditor": true,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "20-editor-prompt-tuner.html",
+      "bytes": 21252,
+      "lines": 724,
+      "title": "Acme — Support reply prompt tuner",
+      "headings": {
+        "h1": [
+          "Support reply draft prompt"
+        ],
+        "h2": [],
+        "h3": []
+      },
+      "structure": {
+        "sections": 2,
+        "articles": 0,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 0,
+        "codeBlocks": 0
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 4,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 2,
+        "links": 0,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 2
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 6767,
+        "variables": [
+          "--ivory",
+          "--slate",
+          "--clay",
+          "--clay-d",
+          "--oat",
+          "--olive",
+          "--gray-50",
+          "--gray-200",
+          "--gray-500",
+          "--gray-800",
+          "--white",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 1,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 2,
+        "gridDeclarations": 1,
+        "flexDeclarations": 5,
+        "absoluteDeclarations": 0,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 1,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 12604,
+        "eventTypes": [
+          "input",
+          "paste",
+          "keydown",
+          "click"
+        ],
+        "querySelectors": 0,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 1,
+        "observers": [],
+        "keyboardLogic": 1,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 1
+      },
+      "conventions": {
+        "classNames": [
+          "wrap",
+          "eyebrow",
+          "sub",
+          "toolbar",
+          "btn-primary",
+          "btn-ghost",
+          "spacer",
+          "hint",
+          "cols",
+          "panel",
+          "ed-toolbar",
+          "ed-label",
+          "counter",
+          "editor",
+          "legend",
+          "legend-label",
+          "legend-chips",
+          "panel preview-panel",
+          "preview-head",
+          "filled",
+          "missing"
+        ],
+        "dataAttributes": [],
+        "usesSlides": false,
+        "usesEditor": true,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": true
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "index.html",
+      "bytes": 38912,
+      "lines": 825,
+      "title": "The unreasonable effectiveness of HTML — examples",
+      "headings": {
+        "h1": [
+          "The unreasonable effectiveness of HTML"
+        ],
+        "h2": [
+          "Exploration & Planning",
+          "Code Review & Understanding",
+          "Design",
+          "Prototyping",
+          "Illustrations & Diagrams",
+          "Decks",
+          "Research & Learning",
+          "Reports",
+          "Custom Editing Interfaces"
+        ],
+        "h3": []
+      },
+      "structure": {
+        "sections": 9,
+        "articles": 0,
+        "navs": 1,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 0,
+        "codeBlocks": 3
+      },
+      "media": {
+        "svg": 20,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": [
+          "thariqs.github.io"
+        ]
+      },
+      "controls": {
+        "buttons": 0,
+        "links": 32,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 1,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 9403,
+        "variables": [
+          "--ivory",
+          "--paper",
+          "--slate",
+          "--clay",
+          "--clay-d",
+          "--oat",
+          "--olive",
+          "--g100",
+          "--g200",
+          "--g300",
+          "--g500",
+          "--g700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 4,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 4,
+        "gridDeclarations": 3,
+        "flexDeclarations": 10,
+        "absoluteDeclarations": 2,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 1,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 0,
+        "bytes": 0,
+        "eventTypes": [],
+        "querySelectors": 0,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "wrap",
+          "masthead",
+          "hero-grid",
+          "eyebrow",
+          "intro",
+          "toc",
+          "n",
+          "hero-fig",
+          "pane md",
+          "tag",
+          "l w90",
+          "l w75",
+          "l w82",
+          "l w60",
+          "l w70",
+          "l w50",
+          "pane html",
+          "blk",
+          "row",
+          "bar b1",
+          "bar b2",
+          "bar b3",
+          "bar b4",
+          "sec-head",
+          "idx",
+          "count",
+          "sec-intro",
+          "grid",
+          "card",
+          "thumb",
+          "wh",
+          "oa",
+          "ln",
+          "lc",
+          "cl",
+          "body",
+          "title",
+          "desc",
+          "file",
+          "arrow",
+          "fl",
+          "ol",
+          "sl",
+          "lc da",
+          "st",
+          "k"
+        ],
+        "dataAttributes": [
+          "data-flow"
+        ],
+        "usesSlides": true,
+        "usesEditor": true,
+        "usesDashboard": false,
+        "usesTimeline": true,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "unknowns/01-blindspot-pass.html",
+      "bytes": 27389,
+      "lines": 680,
+      "title": "Blindspot pass — Know your unknowns",
+      "headings": {
+        "h1": [
+          "Blindspot pass"
+        ],
+        "h2": [
+          "Unknown unknowns: the Acme auth module"
+        ],
+        "h3": [
+          "Sessions are double-written — the Redis store you'll find first is the wrong one",
+          "The SAML provider — your obvious template — bypasses the auth middleware",
+          "Someone already tried this — and it was reverted for a reason that still holds",
+          "Identities and accounts are separate things — and the provider interface hides it",
+          "Token refresh is behind a flag that's on in dev and off in prod",
+          "Registering a provider takes three steps, and only two are discoverable",
+          "Logout isn't a function call — it's an event, and the review player listens",
+          "Everything above, folded into the prompt you should actually give me"
+        ]
+      },
+      "structure": {
+        "sections": 0,
+        "articles": 0,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 0,
+        "codeBlocks": 27
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 9,
+        "links": 2,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 10772,
+        "variables": [
+          "--ivory",
+          "--paper",
+          "--slate",
+          "--clay",
+          "--clay-d",
+          "--oat",
+          "--olive",
+          "--g100",
+          "--g200",
+          "--g300",
+          "--g500",
+          "--g700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 3,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 1,
+        "gridDeclarations": 1,
+        "flexDeclarations": 11,
+        "absoluteDeclarations": 0,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 1,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 1107,
+        "eventTypes": [
+          "click"
+        ],
+        "querySelectors": 0,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 1
+      },
+      "conventions": {
+        "classNames": [
+          "wrap",
+          "page-head",
+          "head-row",
+          "eyebrow",
+          "back",
+          "lede",
+          "prompt-card",
+          "prompt-label",
+          "copy-btn",
+          "prompt",
+          "divider",
+          "artifact",
+          "artifact-bar",
+          "dot",
+          "file",
+          "artifact-body",
+          "sub",
+          "vs-grid",
+          "vs-cell",
+          "vs-tag",
+          "vs-cell actual",
+          "stat-strip",
+          "warn",
+          "art-eyebrow",
+          "bs-card",
+          "bs-head",
+          "badge landmine",
+          "bs-num",
+          "bs-title",
+          "bite",
+          "bite-tag",
+          "chip-row",
+          "prompt-chip",
+          "badge history",
+          "badge concept",
+          "badge convention",
+          "final-card",
+          "final-head",
+          "final-prompt",
+          "final-note"
+        ],
+        "dataAttributes": [
+          "data-copy-target"
+        ],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": true
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "unknowns/02-color-grading-explainer.html",
+      "bytes": 27895,
+      "lines": 583,
+      "title": "Teach me my unknowns — Know your unknowns",
+      "headings": {
+        "h1": [
+          "Teach me my unknowns"
+        ],
+        "h2": [
+          "Color grading in one sitting"
+        ],
+        "h3": [
+          "Prompts you couldn't have written an hour ago"
+        ]
+      },
+      "structure": {
+        "sections": 0,
+        "articles": 0,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 1,
+        "codeBlocks": 0
+      },
+      "media": {
+        "svg": 2,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 5,
+        "links": 2,
+        "inputs": 5,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 3,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 4
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 10842,
+        "variables": [
+          "--ivory",
+          "--paper",
+          "--slate",
+          "--clay",
+          "--clay-d",
+          "--oat",
+          "--olive",
+          "--g100",
+          "--g200",
+          "--g300",
+          "--g500",
+          "--g700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 3,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 0,
+        "gridDeclarations": 5,
+        "flexDeclarations": 8,
+        "absoluteDeclarations": 9,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 1,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 5410,
+        "eventTypes": [
+          "click",
+          "input"
+        ],
+        "querySelectors": 2,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 1,
+        "timers": 1
+      },
+      "conventions": {
+        "classNames": [
+          "wrap",
+          "eyebrow",
+          "backlink",
+          "lede",
+          "card promptbox",
+          "label",
+          "copybtn",
+          "divider",
+          "artifact",
+          "sub",
+          "sec-eyebrow",
+          "pipeline",
+          "pipe-step",
+          "pipe-step hot",
+          "ladder",
+          "card rung",
+          "term",
+          "def",
+          "say",
+          "card console",
+          "console-head",
+          "fname",
+          "presets",
+          "on",
+          "frame-wrap",
+          "frame-stack",
+          "frame-tag before",
+          "frame-tag after",
+          "split-handle",
+          "sliders",
+          "sl-row",
+          "console-foot",
+          "resetbtn",
+          "card checklist",
+          "warn",
+          "card prompts-card",
+          "note",
+          "pgrid",
+          "p"
+        ],
+        "dataAttributes": [
+          "data-preset"
+        ],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "unknowns/03-design-directions.html",
+      "bytes": 41116,
+      "lines": 1051,
+      "title": "Four design directions — Know your unknowns",
+      "headings": {
+        "h1": [
+          "Four design directions"
+        ],
+        "h2": [
+          "Dense ops console",
+          "Airy editorial cards",
+          "Kanban / timeline hybrid",
+          "Brutalist mono terminal"
+        ],
+        "h3": [
+          "Reply with a direction and your steals"
+        ]
+      },
+      "structure": {
+        "sections": 0,
+        "articles": 0,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 2,
+        "lists": 0,
+        "codeBlocks": 1
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 18,
+        "links": 2,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 19221,
+        "variables": [
+          "--ivory",
+          "--paper",
+          "--slate",
+          "--clay",
+          "--clay-d",
+          "--oat",
+          "--olive",
+          "--g100",
+          "--g200",
+          "--g300",
+          "--g500",
+          "--g700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 6,
+        "keyframes": [
+          "blink"
+        ],
+        "animationDeclarations": 1,
+        "transitionDeclarations": 4,
+        "gridDeclarations": 2,
+        "flexDeclarations": 15,
+        "absoluteDeclarations": 6,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 2,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 3701,
+        "eventTypes": [
+          "click"
+        ],
+        "querySelectors": 2,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 1
+      },
+      "conventions": {
+        "classNames": [
+          "wrap",
+          "page",
+          "backlink",
+          "eyebrow",
+          "lede",
+          "prompt-card",
+          "label",
+          "copy-btn",
+          "divider",
+          "art-intro",
+          "same-data",
+          "direction",
+          "dir-head",
+          "num",
+          "dir-says",
+          "frame",
+          "frame-bar",
+          "dot",
+          "url",
+          "frame-body",
+          "d1",
+          "topline",
+          "prod",
+          "env",
+          "metrics",
+          "metric",
+          "mk",
+          "mv",
+          "bad",
+          "num-r",
+          "id",
+          "t",
+          "rv",
+          "s-chg",
+          "sdot",
+          "s-rev",
+          "s-wait",
+          "num-r age-hot",
+          "s-ok",
+          "chips",
+          "chip steal",
+          "k",
+          "chip skip",
+          "d2",
+          "masth",
+          "bignum-wrap",
+          "bignum",
+          "bignum-cap",
+          "weekly",
+          "row",
+          "av a1",
+          "info",
+          "vt",
+          "meta",
+          "phrase hot",
+          "av a2",
+          "phrase",
+          "av a3",
+          "phrase ok",
+          "av a4"
+        ],
+        "dataAttributes": [
+          "data-dir",
+          "data-label",
+          "data-name"
+        ],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": true,
+        "usesTimeline": true,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "unknowns/04-toolbar-mock.html",
+      "bytes": 35478,
+      "lines": 799,
+      "title": "Mock before you wire — Know your unknowns",
+      "headings": {
+        "h1": [
+          "Mock before you wire"
+        ],
+        "h2": [
+          "Four layout calls I'd rather not guess"
+        ],
+        "h3": [
+          "Comments @ 00:41"
+        ]
+      },
+      "structure": {
+        "sections": 0,
+        "articles": 0,
+        "navs": 0,
+        "asides": 1,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 0,
+        "codeBlocks": 4
+      },
+      "media": {
+        "svg": 8,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 30,
+        "links": 2,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 19,
+        "roles": [
+          "tablist",
+          "toolbar"
+        ],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 16474,
+        "variables": [
+          "--ivory",
+          "--paper",
+          "--slate",
+          "--clay",
+          "--clay-d",
+          "--oat",
+          "--olive",
+          "--g100",
+          "--g200",
+          "--g300",
+          "--g500",
+          "--g700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 3,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 1,
+        "gridDeclarations": 4,
+        "flexDeclarations": 13,
+        "absoluteDeclarations": 13,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 1,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 4935,
+        "eventTypes": [
+          "click"
+        ],
+        "querySelectors": 7,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 1
+      },
+      "conventions": {
+        "classNames": [
+          "wrap",
+          "backlink",
+          "eyebrow",
+          "lede",
+          "promptbox",
+          "label",
+          "copybtn",
+          "divider",
+          "artifact",
+          "art-head",
+          "art-title",
+          "seg",
+          "on",
+          "dot",
+          "variant-note",
+          "stagewrap v-pill",
+          "stage",
+          "scene",
+          "chip-tc",
+          "chip-paused",
+          "seekbar",
+          "seek-pins",
+          "seek-pin",
+          "seek-track",
+          "seek-buf",
+          "seek-play",
+          "seek-head",
+          "drawer",
+          "drawer-head",
+          "cnt",
+          "drawer-close",
+          "drawer-body",
+          "cmt",
+          "who",
+          "av",
+          "nm",
+          "tc",
+          "pin",
+          "drawer-input",
+          "toolbar",
+          "tb-group",
+          "tool on",
+          "tool",
+          "tb-sep",
+          "swatches",
+          "swatch on",
+          "swatch",
+          "strokes",
+          "stroke s1",
+          "stroke s2 on",
+          "stroke s3",
+          "ann-chip",
+          "cmt-btn",
+          "art-footnote",
+          "questions",
+          "sub",
+          "q",
+          "q-text",
+          "qn",
+          "q-chips"
+        ],
+        "dataAttributes": [
+          "data-v",
+          "data-tool",
+          "data-c",
+          "data-w",
+          "data-q",
+          "data-a"
+        ],
+        "usesSlides": false,
+        "usesEditor": true,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": true
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "unknowns/05-churn-brainstorm.html",
+      "bytes": 29987,
+      "lines": 717,
+      "title": "Brainstorm the intervention — Know your unknowns",
+      "headings": {
+        "h1": [
+          "Brainstorm the intervention"
+        ],
+        "h2": [
+          "10 places to intervene, cheapest to most ambitious"
+        ],
+        "h3": [
+          "Fix the dead-end empty state",
+          "Turn on the sample project that already exists",
+          "Show pending invites inside the app",
+          "Wire the milestones table to a dashboard checklist",
+          "Engineer the first-comment moment",
+          "Rescue silently failed first uploads",
+          "Watch-together first session for teams",
+          "Ship five review-workflow templates",
+          "Built-in quick screen & camera recording",
+          "First-class client review portals"
+        ]
+      },
+      "structure": {
+        "sections": 0,
+        "articles": 0,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 0,
+        "codeBlocks": 20
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 12,
+        "links": 2,
+        "inputs": 10,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 10
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 11644,
+        "variables": [
+          "--ivory",
+          "--paper",
+          "--slate",
+          "--clay",
+          "--clay-d",
+          "--oat",
+          "--olive",
+          "--g100",
+          "--g200",
+          "--g300",
+          "--g500",
+          "--g700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 3,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 6,
+        "gridDeclarations": 1,
+        "flexDeclarations": 11,
+        "absoluteDeclarations": 4,
+        "fixedDeclarations": 1,
+        "stickyDeclarations": 0,
+        "clampUses": 3,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 3093,
+        "eventTypes": [
+          "click",
+          "change"
+        ],
+        "querySelectors": 2,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 1
+      },
+      "conventions": {
+        "classNames": [
+          "wrap",
+          "page-head",
+          "back",
+          "eyebrow",
+          "lede",
+          "prompt-card",
+          "prompt-label",
+          "copy-prompt",
+          "divider",
+          "artifact",
+          "art-eyebrow",
+          "art-sub",
+          "spectrum",
+          "spec-labels",
+          "lo",
+          "hi",
+          "spec-track",
+          "spec-line",
+          "spec-dot",
+          "spec-ticks",
+          "cards",
+          "iv",
+          "iv-top",
+          "iv-num",
+          "chips",
+          "effort s",
+          "path",
+          "iv-body",
+          "iv-found",
+          "iv-impact",
+          "tag",
+          "iv-foot",
+          "resonate",
+          "effort m",
+          "effort l",
+          "effort xl",
+          "replybar",
+          "replybar-inner",
+          "rb-count",
+          "rb-reply",
+          "rb-copy"
+        ],
+        "dataAttributes": [
+          "data-n"
+        ],
+        "usesSlides": false,
+        "usesEditor": true,
+        "usesDashboard": true,
+        "usesTimeline": true,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "unknowns/06-interview.html",
+      "bytes": 27269,
+      "lines": 645,
+      "title": "The interview — Know your unknowns",
+      "headings": {
+        "h1": [
+          "The interview"
+        ],
+        "h2": [
+          "' + esc(q.q) + '",
+          "Seven decisions, zero assumptions."
+        ],
+        "h3": []
+      },
+      "structure": {
+        "sections": 0,
+        "articles": 0,
+        "navs": 1,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 1,
+        "lists": 0,
+        "codeBlocks": 1
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 1,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 8,
+        "links": 2,
+        "inputs": 1,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 1,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 11989,
+        "variables": [
+          "--ivory",
+          "--paper",
+          "--slate",
+          "--clay",
+          "--clay-d",
+          "--oat",
+          "--olive",
+          "--g100",
+          "--g200",
+          "--g300",
+          "--g500",
+          "--g700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 5,
+        "keyframes": [
+          "qin",
+          "qout"
+        ],
+        "animationDeclarations": 2,
+        "transitionDeclarations": 1,
+        "gridDeclarations": 2,
+        "flexDeclarations": 10,
+        "absoluteDeclarations": 2,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 2,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 13644,
+        "eventTypes": [
+          "click",
+          "keydown"
+        ],
+        "querySelectors": 9,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 1,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 3
+      },
+      "conventions": {
+        "classNames": [
+          "wrap",
+          "eyebrow",
+          "backlink",
+          "lede",
+          "promptbox",
+          "label",
+          "copybtn",
+          "divider",
+          "artifact",
+          "art-head",
+          "t",
+          "s",
+          "art-body",
+          "rail",
+          "stage",
+          "rail-label",
+          "rail-dot",
+          "rail-q",
+          "tick",
+          "rail-meta",
+          "qcard",
+          "badge",
+          "qnum",
+          "qtext",
+          "why",
+          "opts",
+          "opt",
+          "ot",
+          "od",
+          "otherrow",
+          "navrow",
+          "backbtn",
+          "navhint",
+          "pill",
+          "topic",
+          "dec",
+          "redo",
+          "sum-h",
+          "sum-sub",
+          "dtable-scroll",
+          "dtable",
+          "genblock",
+          "gb-label",
+          "genwrap",
+          "restart"
+        ],
+        "dataAttributes": [
+          "data-egress",
+          "data-i",
+          "data-oi",
+          "data-model"
+        ],
+        "usesSlides": false,
+        "usesEditor": true,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "unknowns/07-reference-port.html",
+      "bytes": 36665,
+      "lines": 652,
+      "title": "Point at a reference — Know your unknowns",
+      "headings": {
+        "h1": [
+          "Point at a reference"
+        ],
+        "h2": [
+          "Semantics map: rate-limiter &rarr; Acme API client"
+        ],
+        "h3": [
+          "Lazy refill &mdash; integer truncation must survive the float world",
+          "Decorrelated jitter &mdash; inclusive range, wandering seed",
+          "Retry budget &mdash; a mutex the event loop doesn&rsquo;t need (with one trap)",
+          "Ready to port when you are"
+        ]
+      },
+      "structure": {
+        "sections": 5,
+        "articles": 0,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 1,
+        "lists": 4,
+        "codeBlocks": 88
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 3,
+        "links": 2,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 12092,
+        "variables": [
+          "--ivory",
+          "--paper",
+          "--slate",
+          "--clay",
+          "--clay-d",
+          "--oat",
+          "--olive",
+          "--g100",
+          "--g200",
+          "--g300",
+          "--g500",
+          "--g700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 2,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 4,
+        "gridDeclarations": 3,
+        "flexDeclarations": 13,
+        "absoluteDeclarations": 2,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 2,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 1989,
+        "eventTypes": [
+          "click",
+          "mouseenter",
+          "mouseleave"
+        ],
+        "querySelectors": 2,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 1
+      },
+      "conventions": {
+        "classNames": [
+          "wrap",
+          "eyebrow",
+          "backlink",
+          "lede",
+          "card promptbox",
+          "label",
+          "copybtn",
+          "divider",
+          "artifact",
+          "art-head",
+          "badge await",
+          "art-sub",
+          "art-paths",
+          "sec",
+          "sec-eyebrow",
+          "num",
+          "card bullets",
+          "pair",
+          "pair-title",
+          "pt-n",
+          "pair-grid",
+          "card codecard",
+          "chead",
+          "fp",
+          "lang rust",
+          "kw",
+          "fn2",
+          "ty",
+          "hl",
+          "nu",
+          "lang ts",
+          "cm",
+          "notes",
+          "note",
+          "nmark",
+          "three",
+          "card col keep",
+          "colhead",
+          "dot",
+          "card col chg",
+          "card col drop",
+          "tbl-scroll",
+          "pill same",
+          "pill equiv",
+          "card confirm",
+          "ctext",
+          "cbtns",
+          "btn primary",
+          "btn ghost"
+        ],
+        "dataAttributes": [
+          "data-p"
+        ],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "unknowns/08-implementation-plan.html",
+      "bytes": 36988,
+      "lines": 766,
+      "title": "The tweakable plan — Know your unknowns",
+      "headings": {
+        "h1": [
+          "The tweakable plan"
+        ],
+        "h2": [
+          "Implementation plan: Annotation export"
+        ],
+        "h3": [
+          "Decisions you'll probably want to change",
+          "Sequencing",
+          "Mechanical work (trust me)",
+          "Tweak these three things"
+        ]
+      },
+      "structure": {
+        "sections": 3,
+        "articles": 0,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 1,
+        "tables": 0,
+        "lists": 4,
+        "codeBlocks": 19
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 6,
+        "links": 2,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 17088,
+        "variables": [
+          "--ivory",
+          "--paper",
+          "--slate",
+          "--clay",
+          "--clay-d",
+          "--oat",
+          "--olive",
+          "--g100",
+          "--g200",
+          "--g300",
+          "--g500",
+          "--g700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 13,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 3,
+        "gridDeclarations": 4,
+        "flexDeclarations": 13,
+        "absoluteDeclarations": 3,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 2,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 2125,
+        "eventTypes": [],
+        "querySelectors": 5,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 1
+      },
+      "conventions": {
+        "classNames": [
+          "wrap",
+          "page-head",
+          "back",
+          "eyebrow",
+          "lede",
+          "prompt-card",
+          "p-label",
+          "copy-btn",
+          "produced",
+          "artifact",
+          "plan-title",
+          "plan-sub",
+          "chips",
+          "chip",
+          "k",
+          "v",
+          "v risk",
+          "sort-banner",
+          "glyph",
+          "plan-sec",
+          "sec-head",
+          "sec-letter",
+          "likelihood hi",
+          "sec-intro",
+          "sub",
+          "schema-wrap",
+          "table-box",
+          "t-name",
+          "new-badge",
+          "col-row",
+          "cn",
+          "ct",
+          "fk",
+          "col-row flag v-main",
+          "col-row alt-note v-alt",
+          "col-row flag v-main2",
+          "col-row alt-note v-alt2",
+          "choice-card",
+          "choice-head",
+          "choice-flag",
+          "ch-title",
+          "alt-toggle",
+          "choice-body",
+          "v-main",
+          "pick-label",
+          "tradeoff",
+          "v-alt",
+          "pick-label alt-l",
+          "code-grid",
+          "code-block",
+          "cl-line",
+          "cm",
+          "kw",
+          "ty",
+          "cl-line flagged",
+          "st",
+          "fnum",
+          "margin-notes",
+          "m-note",
+          "n-num"
+        ],
+        "dataAttributes": [
+          "data-variant"
+        ],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": true,
+        "usesTabs": true
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "unknowns/09-implementation-notes.html",
+      "bytes": 26697,
+      "lines": 610,
+      "title": "Implementation notes — Know your unknowns",
+      "headings": {
+        "h1": [
+          "Implementation notes"
+        ],
+        "h2": [
+          "What this changes about attempt #2"
+        ],
+        "h3": [
+          "Step 1 — export job model and queue wiring, as planned",
+          "Step 2 — POST /api/v1/reviews/:id/export endpoint",
+          "Review.duration_ms is denormalized and occasionally stale",
+          "Legacy annotations don't always have frame timestamps",
+          "Step 3 — annotation burn-in via ffmpeg drawtext / drawbox , as planned",
+          "The queue round-trips Date objects as strings",
+          "Zip streaming already exists — dropped the planned archiver dependency",
+          "A websocket progress channel convention already exists",
+          "Guest reviewers can view reviews but can't download assets",
+          "Decide the guest-reviewer export policy",
+          "Confirm the retention window for export bundles"
+        ]
+      },
+      "structure": {
+        "sections": 0,
+        "articles": 0,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 1,
+        "codeBlocks": 60
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 5,
+        "links": 2,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 1,
+        "roles": [
+          "tablist"
+        ],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 9667,
+        "variables": [
+          "--ivory",
+          "--paper",
+          "--slate",
+          "--clay",
+          "--clay-d",
+          "--oat",
+          "--olive",
+          "--g100",
+          "--g200",
+          "--g300",
+          "--g500",
+          "--g700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 1,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 0,
+        "gridDeclarations": 2,
+        "flexDeclarations": 5,
+        "absoluteDeclarations": 4,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 1,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 2584,
+        "eventTypes": [
+          "click"
+        ],
+        "querySelectors": 3,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 1
+      },
+      "conventions": {
+        "classNames": [
+          "wrap",
+          "page",
+          "eyebrow",
+          "back",
+          "lede",
+          "promptcard",
+          "label",
+          "copybtn",
+          "divider",
+          "doc",
+          "doc-head",
+          "dot",
+          "path",
+          "meta",
+          "doc-summary",
+          "stat",
+          "n",
+          "t",
+          "stat dev",
+          "stat you",
+          "chips",
+          "chip on",
+          "ct",
+          "chip",
+          "timeline",
+          "entry t-plan",
+          "ts",
+          "rail",
+          "node",
+          "body",
+          "badge",
+          "ts-mobile",
+          "entry t-disc",
+          "entry t-dev",
+          "devgrid",
+          "row",
+          "k",
+          "v",
+          "row chosen",
+          "entry t-human",
+          "next",
+          "sub"
+        ],
+        "dataAttributes": [
+          "data-f",
+          "data-t",
+          "data-retention"
+        ],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": true,
+        "usesTabs": true
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "unknowns/10-pitch-doc.html",
+      "bytes": 30094,
+      "lines": 574,
+      "title": "The buy-in doc — Know your unknowns",
+      "headings": {
+        "h1": [
+          "The buy-in doc"
+        ],
+        "h2": [
+          "Annotation export is ready to ship"
+        ],
+        "h3": [
+          "01 Watch it work",
+          "02 The pitch",
+          "03 What reviewers will ask",
+          "04 Spec at a glance",
+          "05 Risk, rollback, and what I need from you"
+        ]
+      },
+      "structure": {
+        "sections": 0,
+        "articles": 1,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 5,
+        "tables": 1,
+        "lists": 1,
+        "codeBlocks": 12
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 3,
+        "links": 7,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 1,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 15052,
+        "variables": [
+          "--ivory",
+          "--paper",
+          "--slate",
+          "--clay",
+          "--clay-d",
+          "--oat",
+          "--olive",
+          "--g100",
+          "--g200",
+          "--g300",
+          "--g500",
+          "--g700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--serif)",
+          "var(--mono)"
+        ],
+        "mediaQueries": 2,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 7,
+        "gridDeclarations": 2,
+        "flexDeclarations": 16,
+        "absoluteDeclarations": 11,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 3,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 3314,
+        "eventTypes": [
+          "click"
+        ],
+        "querySelectors": 0,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 1,
+        "timers": 2
+      },
+      "conventions": {
+        "classNames": [
+          "wrap",
+          "page",
+          "backlink",
+          "eyebrow",
+          "lede",
+          "promptcard",
+          "label",
+          "copybtn",
+          "divider",
+          "artifact",
+          "doc-top",
+          "doc-eyebrow",
+          "timechip",
+          "doc-title",
+          "doc-sub",
+          "sec",
+          "n",
+          "demo-shell",
+          "demo",
+          "bl-titlebar",
+          "dot",
+          "bl-name",
+          "bl-body",
+          "bl-stage",
+          "bl-video",
+          "bl-play",
+          "bl-tc",
+          "bl-timeline",
+          "bl-track",
+          "fill",
+          "bl-pin",
+          "bl-panel",
+          "bl-panel-head",
+          "bl-count",
+          "bl-ann",
+          "bl-check",
+          "who",
+          "t",
+          "txt",
+          "bl-export",
+          "bl-progress",
+          "bl-prog-card",
+          "pt",
+          "ps",
+          "bl-bar",
+          "b",
+          "bl-toast",
+          "bl-tick",
+          "m",
+          "bl-chip",
+          "demo-caption",
+          "replay",
+          "pitch",
+          "obj",
+          "q",
+          "a",
+          "ref",
+          "tblwrap",
+          "spec",
+          "specref"
+        ],
+        "dataAttributes": [],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": true,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "unknowns/11-change-quiz.html",
+      "bytes": 32621,
+      "lines": 544,
+      "title": "Quiz me before I merge — Know your unknowns",
+      "headings": {
+        "h1": [
+          "Quiz me before I merge"
+        ],
+        "h2": [
+          "Clip export: what changed and why"
+        ],
+        "h3": [
+          "The mental model",
+          "Three non-obvious behaviors this introduces",
+          "Six questions before you merge",
+          "Cleared to merge",
+          "Not yet — re-read these sections"
+        ]
+      },
+      "structure": {
+        "sections": 0,
+        "articles": 0,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 2,
+        "codeBlocks": 4
+      },
+      "media": {
+        "svg": 0,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 3,
+        "links": 3,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 11878,
+        "variables": [
+          "--ivory",
+          "--paper",
+          "--slate",
+          "--clay",
+          "--clay-d",
+          "--oat",
+          "--olive",
+          "--g100",
+          "--g200",
+          "--g300",
+          "--g500",
+          "--g700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--serif)",
+          "var(--mono)"
+        ],
+        "mediaQueries": 2,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 2,
+        "gridDeclarations": 3,
+        "flexDeclarations": 13,
+        "absoluteDeclarations": 1,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 10218,
+        "eventTypes": [
+          "click"
+        ],
+        "querySelectors": 1,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 1
+      },
+      "conventions": {
+        "classNames": [
+          "page",
+          "topline",
+          "eyebrow",
+          "backlink",
+          "pagetitle",
+          "lede",
+          "promptcard",
+          "label",
+          "copybtn",
+          "divider",
+          "artifact",
+          "art-head",
+          "art-eyebrow",
+          "sub",
+          "branchline",
+          "arr",
+          "art-body",
+          "stats",
+          "statchip",
+          "num",
+          "cap",
+          "num add",
+          "num del",
+          "art-section",
+          "secnote",
+          "flow-pair",
+          "flowcard before",
+          "fc-label",
+          "fnode",
+          "farrow",
+          "farrow lab",
+          "fnode oatf",
+          "flowcard after",
+          "fnode new",
+          "fsplit",
+          "beh",
+          "beh-head",
+          "beh-num",
+          "beh-body",
+          "beh-row",
+          "k",
+          "v",
+          "fchip",
+          "leans",
+          "lab",
+          "quiz-rule",
+          "quiz-intro",
+          "qsub",
+          "scorebox",
+          "result",
+          "cleared",
+          "clr-head",
+          "clr-badge",
+          "clr-sub",
+          "mergelist",
+          "tick",
+          "pend",
+          "reread",
+          "retry",
+          "qnum"
+        ],
+        "dataAttributes": [
+          "data-q",
+          "data-o"
+        ],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": true
+      }
+    },
+    {
+      "repository": "html-effectiveness",
+      "path": "unknowns/index.html",
+      "bytes": 25766,
+      "lines": 487,
+      "title": "Know your unknowns — examples",
+      "headings": {
+        "h1": [
+          "Know your unknowns"
+        ],
+        "h2": [
+          "Pre-implementation",
+          "During implementation",
+          "Post-implementation"
+        ],
+        "h3": []
+      },
+      "structure": {
+        "sections": 3,
+        "articles": 0,
+        "navs": 1,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 0,
+        "codeBlocks": 1
+      },
+      "media": {
+        "svg": 11,
+        "canvas": 0,
+        "images": 0,
+        "video": 0,
+        "audio": 0,
+        "dataUris": 0,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 0,
+        "links": 16,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 1,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 9235,
+        "variables": [
+          "--ivory",
+          "--paper",
+          "--slate",
+          "--clay",
+          "--clay-d",
+          "--oat",
+          "--olive",
+          "--g100",
+          "--g200",
+          "--g300",
+          "--g500",
+          "--g700",
+          "--serif",
+          "--sans",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "var(--sans)",
+          "var(--mono)",
+          "var(--serif)"
+        ],
+        "mediaQueries": 4,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 4,
+        "gridDeclarations": 3,
+        "flexDeclarations": 9,
+        "absoluteDeclarations": 6,
+        "fixedDeclarations": 0,
+        "stickyDeclarations": 0,
+        "clampUses": 1,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 0,
+        "bytes": 0,
+        "eventTypes": [],
+        "querySelectors": 0,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 0,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "wrap",
+          "masthead",
+          "backlink",
+          "hero-grid",
+          "eyebrow",
+          "intro",
+          "toc",
+          "n",
+          "hero-fig",
+          "q kk",
+          "tag",
+          "q ku",
+          "q uk",
+          "q uu",
+          "sec-head",
+          "idx",
+          "count",
+          "sec-intro",
+          "grid",
+          "card",
+          "thumb",
+          "wh",
+          "ln",
+          "cl",
+          "lc da",
+          "lc",
+          "oa",
+          "body",
+          "title",
+          "desc",
+          "file",
+          "arrow",
+          "ol",
+          "sl",
+          "fl",
+          "st da",
+          "st",
+          "ln da",
+          "k"
+        ],
+        "dataAttributes": [],
+        "usesSlides": false,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": false,
+        "usesTabs": false
+      }
+    },
+    {
+      "repository": "cc-video-editing-deck",
+      "path": "index.html",
+      "bytes": 4371231,
+      "lines": 586,
+      "title": "How Fable Edited Its Own Video",
+      "headings": {
+        "h1": [
+          "How Fable edited its own launch video",
+          "Edited by Claude Code."
+        ],
+        "h2": [
+          "17 takes, 4 scenes",
+          "&hellip;and the finished cut",
+          "One prompt kicks off the whole edit",
+          "Listen to every take",
+          "Subagents pick the best takes",
+          "The edit is a JSON file",
+          "ffmpeg stitches the first cut",
+          "Write the color grade from scratch",
+          "Log in, picture out",
+          "The input: 11 static design frames",
+          "Each PNG is rebuilt as code",
+          "One file sets the feel",
+          "The edit is a cue sheet, timed by the transcript",
+          "Watch it land on the spoken beat",
+          "Export the designs to Figma",
+          "A control room for designers &mdash; this one is live, try the sliders",
+          "Import the redesign back from Figma",
+          "The final render",
+          "The whole edit is a repo",
+          "By the numbers"
+        ],
+        "h3": []
+      },
+      "structure": {
+        "sections": 0,
+        "articles": 0,
+        "navs": 0,
+        "asides": 0,
+        "dialogs": 0,
+        "details": 0,
+        "tables": 0,
+        "lists": 0,
+        "codeBlocks": 7
+      },
+      "media": {
+        "svg": 2,
+        "canvas": 0,
+        "images": 31,
+        "video": 7,
+        "audio": 0,
+        "dataUris": 43,
+        "externalHosts": []
+      },
+      "controls": {
+        "buttons": 0,
+        "links": 0,
+        "inputs": 0,
+        "selects": 0,
+        "textareas": 0,
+        "contentEditable": 0
+      },
+      "accessibility": {
+        "ariaAttributes": 0,
+        "roles": [],
+        "altAttributes": 0,
+        "labels": 0
+      },
+      "css": {
+        "blocks": 1,
+        "bytes": 705747,
+        "variables": [
+          "--slate",
+          "--ivory",
+          "--ivory-warm",
+          "--clay",
+          "--oat",
+          "--white",
+          "--t1",
+          "--t2",
+          "--t3",
+          "--bd",
+          "--sans",
+          "--serif",
+          "--mono"
+        ],
+        "fontFamilies": [
+          "'Anthropic Sans'",
+          "'Anthropic Serif'",
+          "'Anthropic Mono'",
+          "var(--sans)",
+          "var(--serif)",
+          "var(--mono)"
+        ],
+        "mediaQueries": 0,
+        "keyframes": [],
+        "animationDeclarations": 0,
+        "transitionDeclarations": 1,
+        "gridDeclarations": 0,
+        "flexDeclarations": 1,
+        "absoluteDeclarations": 2,
+        "fixedDeclarations": 1,
+        "stickyDeclarations": 0,
+        "clampUses": 0,
+        "colorMixUses": 0
+      },
+      "javascript": {
+        "blocks": 1,
+        "bytes": 1203,
+        "eventTypes": [
+          "resize",
+          "keydown",
+          "click"
+        ],
+        "querySelectors": 2,
+        "localStorageUses": 0,
+        "requestAnimationFrameUses": 0,
+        "observers": [],
+        "keyboardLogic": 1,
+        "pointerLogic": 0,
+        "dragLogic": 0,
+        "timers": 0
+      },
+      "conventions": {
+        "classNames": [
+          "slide",
+          "eyebrow",
+          "head",
+          "cap",
+          "thumb",
+          "thumb pick",
+          "prompt on-dark",
+          "plabel",
+          "ptext",
+          "hl",
+          "codeblock",
+          "c",
+          "o",
+          "serif",
+          "g",
+          "prompt on-light",
+          "imgcard",
+          "imgcap",
+          "noadvance"
+        ],
+        "dataAttributes": [],
+        "usesSlides": true,
+        "usesEditor": false,
+        "usesDashboard": false,
+        "usesTimeline": true,
+        "usesTabs": false
+      }
+    }
+  ]
+}

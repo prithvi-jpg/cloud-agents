@@ -42,5 +42,5 @@ Agent frameworks expose models and tools, but project truth, authority, recovery
 - The isolated skill package, reference docs, scripts, and schemas are present and internally linked.
 - Unit tests pass on Python 3.10, 3.11, and 3.12 in CI.
 - The repository validates its own project spine.
-- Tracked source contains no credentials, personal fixtures, or machine-specific absolute paths.
+- Tracked source contains no credentials or personal data exports. Owner-approved personal skill text may be published in the portable library; its machine-specific path examples must be disclosed as portability limits.
 - Release claims disclose the project's actual maturity and limitations.

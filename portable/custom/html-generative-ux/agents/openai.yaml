@@ -1,0 +1,4 @@
+interface:
+  display_name: "HTML Generative UX"
+  short_description: "Build clear, interactive HTML communication"
+  default_prompt: "Use $html-generative-ux to turn this material into an effective interactive HTML explanation."

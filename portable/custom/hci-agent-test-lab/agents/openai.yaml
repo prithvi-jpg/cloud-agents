@@ -1,0 +1,4 @@
+interface:
+  display_name: "HCI Agent Test Lab"
+  short_description: "Run evidence-bounded UX agent rehearsals"
+  default_prompt: "Use $hci-agent-test-lab to test this local app with a small browser-agent cohort and produce a replayable findings handoff."

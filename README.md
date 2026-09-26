@@ -4,6 +4,8 @@ Cloud Agents is an open-source operating layer for long-running AI-agent work. I
 
 This repository packages the **Agent Systems Foundry OS** as a reusable agent skill plus dependency-free Python utilities and JSON Schemas.
 
+It also carries a [portable library of 189 skill names](portable/README.md), including the adaptive skill above. The [ZIP download](downloads/skill-portability-pack.zip) contains the same manifest, installer, and bundled local skills. The installer fetches 168 skills from 18 pinned GitHub repositories; the other 21 are included under [`portable/custom`](portable/custom). The [source list](portable/SOURCES.md) and [`manifest.json`](portable/manifest.json) show where every skill comes from. The 31 managed Codex plugins are inventoried separately and are not installed by the ZIP.
+
 > **Project status:** v0.1.0 initial public release. This is a new project. It does not claim established adoption or production-wide validation yet.
 
 ## Why this exists
@@ -62,6 +64,8 @@ The repository keeps shared project instructions in `AGENTS.md`. `CLAUDE.md` imp
 
 For a second laptop, clone the repository there and install the same directory. Back up an existing installed copy before replacing it, then restart Codex to refresh skill discovery. The [model and harness routing note](skill/adaptive-agent-operating-system/references/model-and-harness-routing.md) explains how to use the portable skill with GPT-6 Sol or Astra in Codex and Claude Fable in a Claude-capable harness. Model availability is account-specific; the skill does not provision a model.
 
+To reproduce the broader library on another laptop, read the [portable installer guide](portable/README.md) and run `python3 portable/install.py --target "$HOME/.agents/skills"` to preview its changes. Add `--install` only after reviewing the names, bundled personal content, and your work device's policy. The installer backs up replaced skills and prints a rollback receipt. You can select one skill with `--only` or reproduce a narrower original location with `--scope`.
+
 ## Operating model
 
 The system separates four kinds of autonomy:
@@ -101,7 +105,7 @@ The current release verifies:
 - required project/state structure;
 - memory-record parsing and validation;
 - JSON Schema syntax and stable canonical IDs;
-- secret-pattern and absolute-path checks in the tracked source.
+- secret-pattern checks in the public package; bundled local skills include some machine-specific path examples and require environment-specific setup.
 
 It does **not** yet prove broad ecosystem adoption, human-outcome improvement, or compatibility with every agent harness. Those are roadmap items and should be evaluated with real projects and disclosed evidence.
 
@@ -113,4 +117,4 @@ Primary maintainer: [Prithvi Rey](https://github.com/prithvi-jpg).
 
 ## License
 
-[MIT](LICENSE). External projects and publications referenced in the research notes remain under their own licenses and terms.
+[MIT](LICENSE) for original Cloud Agents material. The installer fetches third-party skills from their source repositories at pinned commits, and those repositories retain their own licenses. The bundled `context-dev` skill declares MIT and links to its [original source](https://docs.context.dev/.well-known/agent-skills/context-dev/skill.md).

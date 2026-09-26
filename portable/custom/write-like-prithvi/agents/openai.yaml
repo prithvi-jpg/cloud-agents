@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write Like Prithvi"
+  short_description: "Draft and edit in Prithvi's real voice"
+  default_prompt: "Use $write-like-prithvi to rewrite this in my voice."
