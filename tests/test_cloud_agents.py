@@ -109,8 +109,9 @@ class SkillPackageTests(unittest.TestCase):
         }
         self.assertEqual(set(fields), {"name", "description"})
         self.assertEqual(fields["name"], SKILL.name)
-        self.assertIn("bounded autonomous execution", fields["description"])
-        self.assertLess(len(text.splitlines()), 500)
+        self.assertIn("Use", fields["description"])
+        self.assertLess(len(fields["description"]), 350)
+        self.assertLess(len(text.splitlines()), 100)
 
     def test_openai_metadata_targets_the_skill(self) -> None:
         metadata = (SKILL / "agents" / "openai.yaml").read_text(encoding="utf-8")

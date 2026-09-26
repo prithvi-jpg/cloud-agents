@@ -22,7 +22,8 @@ Next best action: validate the documented routing in a Codex task and a Claude-c
 - GitHub Actions run `30877600999` passed all checks on Python 3.10, 3.11, and 3.12.
 - GitHub release `v0.1.0` is published and points to the verified commit.
 - Public readback confirms MIT licensing, project metadata, topics, Discussions, and private vulnerability reporting.
-- A local routing note now describes GPT-6 Sol/Astra in Codex and Claude Fable in a Claude-capable harness without adding model IDs to canonical project state. Eight unit tests, project validation, compilation, and whitespace checks pass locally.
+- The model-routing note describes GPT-6 Sol/Astra in Codex and Claude Fable in a Claude-capable harness without adding model IDs to canonical project state. The public `main` branch contains the first routing note at `e06ac49`; GitHub Actions run `36269356537` passed all three Python matrix jobs.
+- A local follow-up candidate shortens the root skill into a task-based router and makes repository guidance proportional to the task. It requires local checks and a separate review before publication.
 
 ## Decisions and rejected paths
 
@@ -50,7 +51,7 @@ Next best action: validate the documented routing in a Codex task and a Claude-c
 
 ## Verification status
 
-v0.1.0 is public and verified. The model-routing candidate passes local checks; CI and live cross-harness behavior remain unverified. External adoption remains unverified.
+v0.1.0 and the first routing update are public with passing CI. The simplification follow-up remains local until separately reviewed and pushed. Live cross-harness behavior and external adoption remain unverified.
 
 ## Handoff note
 

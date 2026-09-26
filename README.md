@@ -56,6 +56,10 @@ cp -R skill/adaptive-agent-operating-system "${CODEX_HOME:-$HOME/.codex}/skills/
 
 The package keeps its `SKILL.md`, agent metadata, scripts, references, and assets together; repository-only files remain outside the installed skill.
 
+The root skill is a short router. Codex reads its name and description for discovery, then loads the root and only the references a task needs. This keeps a large skill library usable without placing every procedure in the startup context.
+
+The repository keeps shared project instructions in `AGENTS.md`. `CLAUDE.md` imports that file for Claude Code, including sessions that do not load `AGENTS.md` directly. On Windows this plain-text import avoids symlink setup. To use the skill globally in Claude Code, copy the isolated skill directory to `~/.claude/skills/` as well.
+
 For a second laptop, clone the repository there and install the same directory. Back up an existing installed copy before replacing it, then restart Codex to refresh skill discovery. The [model and harness routing note](skill/adaptive-agent-operating-system/references/model-and-harness-routing.md) explains how to use the portable skill with GPT-6 Sol or Astra in Codex and Claude Fable in a Claude-capable harness. Model availability is account-specific; the skill does not provision a model.
 
 ## Operating model
