@@ -2,13 +2,13 @@
 
 ## Objective and phase
 
-Objective: maintain and evaluate the public v0.1.0 release of Cloud Agents.
+Objective: maintain and evaluate the public Cloud Agents skill, including portable model routing.
 
-Current phase: public release and early evidence collection.
+Current phase: model-routing documentation awaiting cross-harness verification.
 
 ## Active plan and one next action
 
-Next best action: collect one reproducible external usage report or compatibility fixture without overstating adoption.
+Next best action: validate the documented routing in a Codex task and a Claude-capable task using representative work.
 
 ## Verified evidence
 
@@ -22,6 +22,7 @@ Next best action: collect one reproducible external usage report or compatibilit
 - GitHub Actions run `30877600999` passed all checks on Python 3.10, 3.11, and 3.12.
 - GitHub release `v0.1.0` is published and points to the verified commit.
 - Public readback confirms MIT licensing, project metadata, topics, Discussions, and private vulnerability reporting.
+- A local routing note now describes GPT-6 Sol/Astra in Codex and Claude Fable in a Claude-capable harness without adding model IDs to canonical project state. Eight unit tests, project validation, compilation, and whitespace checks pass locally.
 
 ## Decisions and rejected paths
 
@@ -34,6 +35,7 @@ Next best action: collect one reproducible external usage report or compatibilit
 - The maintainer owns the original operating-skill text and licensed the public release under MIT.
 - Early usefulness is supported by the artifact design and passing checks; external adoption remains unverified.
 - Harness compatibility beyond the documented file format remains a roadmap item.
+- Model access and supported effort levels vary by account and harness; this routing note requires checking the target environment rather than implying entitlement.
 
 ## Capability shortlist and rationale
 
@@ -48,7 +50,7 @@ Next best action: collect one reproducible external usage report or compatibilit
 
 ## Verification status
 
-v0.1.0 is public and verified. Local checks, three-version CI, tag, release, repository metadata, security reporting, and public readback pass. External adoption and cross-harness compatibility remain unverified.
+v0.1.0 is public and verified. The model-routing candidate passes local checks; CI and live cross-harness behavior remain unverified. External adoption remains unverified.
 
 ## Handoff note
 

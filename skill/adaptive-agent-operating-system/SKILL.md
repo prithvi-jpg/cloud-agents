@@ -118,6 +118,8 @@ Read [memory-and-retrieval.md](references/memory-and-retrieval.md) before creati
 
 Keep project truth portable. Put Codex-, Hermes-, Claude-, MCP-, or framework-specific conventions in adapters rather than canonical state.
 
+Read [model-and-harness-routing.md](references/model-and-harness-routing.md) when choosing between available model families, reasoning levels, or agent harnesses. Route by the task and measured result; preserve the same authority and completion standard across models.
+
 ## 6. Separate freedom from authority
 
 - **Think and explore:** wide freedom.
@@ -206,4 +208,5 @@ Use `scripts/validate_project.py` to check the project spine after initializatio
 - [memory-and-retrieval.md](references/memory-and-retrieval.md): canonical memory records, hybrid retrieval, vector/graph gates, provenance, correction, and recall evaluation.
 - [knowledge-and-learning.md](references/knowledge-and-learning.md): trace-to-eval learning, coverage graphs, candidate skill governance, and self-improvement boundaries.
 - [runtime-and-adapters.md](references/runtime-and-adapters.md): current framework, browser, MCP, WebMCP, A2A, capability-preflight, and versioned-adapter boundaries.
+- [model-and-harness-routing.md](references/model-and-harness-routing.md): task-based routing for Codex GPT-6 Astra/Sol and Claude Fable, with portability and evaluation boundaries.
 - [research-basis.md](references/research-basis.md): K3, Hermes, frontier-product, OpenAI, MCP, HCI, and risk-management evidence.

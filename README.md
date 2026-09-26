@@ -56,6 +56,8 @@ cp -R skill/adaptive-agent-operating-system "${CODEX_HOME:-$HOME/.codex}/skills/
 
 The package keeps its `SKILL.md`, agent metadata, scripts, references, and assets together; repository-only files remain outside the installed skill.
 
+For a second laptop, clone the repository there and install the same directory. Back up an existing installed copy before replacing it, then restart Codex to refresh skill discovery. The [model and harness routing note](skill/adaptive-agent-operating-system/references/model-and-harness-routing.md) explains how to use the portable skill with GPT-6 Sol or Astra in Codex and Claude Fable in a Claude-capable harness. Model availability is account-specific; the skill does not provision a model.
+
 ## Operating model
 
 The system separates four kinds of autonomy:

@@ -2,6 +2,12 @@
 
 All notable changes to Cloud Agents will be documented here.
 
+## Unreleased
+
+### Added
+
+- A portable model and harness routing reference for Codex GPT-6 Sol/Astra and Claude Fable, including effort, entitlement, and evaluation boundaries.
+
 ## [0.1.0] - 2026-08-03
 
 ### Added
